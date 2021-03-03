@@ -119,7 +119,7 @@
             "casrec_column_name": "Disch Death",
             "alias": "Disch Death",
             "requires_transformation": "conditional_lookup",
-            "lookup_table": "death_discharge_lookup",
+            "lookup_table": "discharge_date_lookup",
             "default_value": "",
             "calculated": "",
             "additional_columns": "Stat"
