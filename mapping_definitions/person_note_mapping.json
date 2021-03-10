@@ -8,7 +8,7 @@
             "fk_parents": "persons:id",
             "data_type": "int",
             "table_name": "person_note",
-            "entity": ""
+            "entity": "remarks"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -30,7 +30,7 @@
             "fk_parents": "notes:id",
             "data_type": "int",
             "table_name": "person_note",
-            "entity": ""
+            "entity": "remarks"
         },
         "transform_casrec": {
             "casrec_table": "",

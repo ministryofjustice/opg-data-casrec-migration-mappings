@@ -8,7 +8,7 @@
             "fk_parents": "",
             "data_type": "int",
             "table_name": "finance_ledger",
-            "entity": ""
+            "entity": "finance"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -30,7 +30,7 @@
             "fk_parents": "",
             "data_type": "str",
             "table_name": "finance_ledger",
-            "entity": ""
+            "entity": "finance"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -52,7 +52,7 @@
             "fk_parents": "",
             "data_type": "datetime",
             "table_name": "finance_ledger",
-            "entity": ""
+            "entity": "finance"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -74,7 +74,7 @@
             "fk_parents": "",
             "data_type": "str",
             "table_name": "finance_ledger",
-            "entity": ""
+            "entity": "finance"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -96,7 +96,7 @@
             "fk_parents": "",
             "data_type": "Decimal",
             "table_name": "finance_ledger",
-            "entity": ""
+            "entity": "finance"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -118,7 +118,7 @@
             "fk_parents": "",
             "data_type": "str",
             "table_name": "finance_ledger",
-            "entity": ""
+            "entity": "finance"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -140,7 +140,7 @@
             "fk_parents": "",
             "data_type": "str",
             "table_name": "finance_ledger",
-            "entity": ""
+            "entity": "finance"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -162,7 +162,7 @@
             "fk_parents": "",
             "data_type": "str",
             "table_name": "finance_ledger",
-            "entity": ""
+            "entity": "finance"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -184,7 +184,7 @@
             "fk_parents": "finance_person:id",
             "data_type": "int",
             "table_name": "finance_ledger",
-            "entity": ""
+            "entity": "finance"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -206,7 +206,7 @@
             "fk_parents": "",
             "data_type": "int",
             "table_name": "finance_ledger",
-            "entity": ""
+            "entity": "finance"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -228,7 +228,7 @@
             "fk_parents": "finance_remission_exemption:id",
             "data_type": "int",
             "table_name": "finance_ledger",
-            "entity": ""
+            "entity": "finance"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -250,7 +250,7 @@
             "fk_parents": "",
             "data_type": "date",
             "table_name": "finance_ledger",
-            "entity": ""
+            "entity": "finance"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -272,7 +272,7 @@
             "fk_parents": "",
             "data_type": "date",
             "table_name": "finance_ledger",
-            "entity": ""
+            "entity": "finance"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -294,7 +294,7 @@
             "fk_parents": "",
             "data_type": "int",
             "table_name": "finance_ledger",
-            "entity": ""
+            "entity": "finance"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -316,7 +316,7 @@
             "fk_parents": "",
             "data_type": "bool",
             "table_name": "finance_ledger",
-            "entity": ""
+            "entity": "finance"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -338,7 +338,7 @@
             "fk_parents": "",
             "data_type": "str",
             "table_name": "finance_ledger",
-            "entity": ""
+            "entity": "finance"
         },
         "transform_casrec": {
             "casrec_table": "",

@@ -8,7 +8,7 @@
             "fk_parents": "",
             "data_type": "int",
             "table_name": "bond_providers",
-            "entity": ""
+            "entity": "bonds"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -30,7 +30,7 @@
             "fk_parents": "",
             "data_type": "str",
             "table_name": "bond_providers",
-            "entity": ""
+            "entity": "bonds"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -52,7 +52,7 @@
             "fk_parents": "",
             "data_type": "Decimal",
             "table_name": "bond_providers",
-            "entity": ""
+            "entity": "bonds"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -74,7 +74,7 @@
             "fk_parents": "",
             "data_type": "str",
             "table_name": "bond_providers",
-            "entity": ""
+            "entity": "bonds"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -96,7 +96,7 @@
             "fk_parents": "",
             "data_type": "str",
             "table_name": "bond_providers",
-            "entity": ""
+            "entity": "bonds"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -118,7 +118,7 @@
             "fk_parents": "",
             "data_type": "str",
             "table_name": "bond_providers",
-            "entity": ""
+            "entity": "bonds"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -140,7 +140,7 @@
             "fk_parents": "",
             "data_type": "str",
             "table_name": "bond_providers",
-            "entity": ""
+            "entity": "bonds"
         },
         "transform_casrec": {
             "casrec_table": "",

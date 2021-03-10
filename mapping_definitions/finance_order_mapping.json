@@ -8,7 +8,7 @@
             "fk_parents": "",
             "data_type": "int",
             "table_name": "finance_order",
-            "entity": ""
+            "entity": "finance"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -30,7 +30,7 @@
             "fk_parents": "finance_person:id",
             "data_type": "int",
             "table_name": "finance_order",
-            "entity": ""
+            "entity": "finance"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -52,7 +52,7 @@
             "fk_parents": "",
             "data_type": "int",
             "table_name": "finance_order",
-            "entity": ""
+            "entity": "finance"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -74,7 +74,7 @@
             "fk_parents": "",
             "data_type": "date",
             "table_name": "finance_order",
-            "entity": ""
+            "entity": "finance"
         },
         "transform_casrec": {
             "casrec_table": "",

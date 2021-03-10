@@ -8,7 +8,7 @@
             "fk_parents": "persons:id",
             "data_type": "int",
             "table_name": "person_caseitem",
-            "entity": ""
+            "entity": "cases"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -30,7 +30,7 @@
             "fk_parents": "cases:id",
             "data_type": "int",
             "table_name": "person_caseitem",
-            "entity": ""
+            "entity": "cases"
         },
         "transform_casrec": {
             "casrec_table": "",

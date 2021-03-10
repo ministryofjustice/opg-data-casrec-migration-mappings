@@ -8,7 +8,7 @@
             "fk_parents": "",
             "data_type": "int",
             "table_name": "addresses",
-            "entity": ""
+            "entity": "client"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -30,7 +30,7 @@
             "fk_parents": "persons:id",
             "data_type": "int",
             "table_name": "addresses",
-            "entity": ""
+            "entity": "client"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -52,7 +52,7 @@
             "fk_parents": "",
             "data_type": "dict",
             "table_name": "addresses",
-            "entity": ""
+            "entity": "client"
         },
         "transform_casrec": {
             "casrec_table": "PAT",
@@ -80,7 +80,7 @@
             "fk_parents": "",
             "data_type": "str",
             "table_name": "addresses",
-            "entity": ""
+            "entity": "client"
         },
         "transform_casrec": {
             "casrec_table": "PAT",
@@ -102,7 +102,7 @@
             "fk_parents": "",
             "data_type": "str",
             "table_name": "addresses",
-            "entity": ""
+            "entity": "client"
         },
         "transform_casrec": {
             "casrec_table": "PAT",
@@ -124,7 +124,7 @@
             "fk_parents": "",
             "data_type": "str",
             "table_name": "addresses",
-            "entity": ""
+            "entity": "client"
         },
         "transform_casrec": {
             "casrec_table": "PAT",
@@ -146,7 +146,7 @@
             "fk_parents": "",
             "data_type": "str",
             "table_name": "addresses",
-            "entity": ""
+            "entity": "client"
         },
         "transform_casrec": {
             "casrec_table": "PAT",
@@ -168,7 +168,7 @@
             "fk_parents": "",
             "data_type": "str",
             "table_name": "addresses",
-            "entity": ""
+            "entity": "client"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -190,7 +190,7 @@
             "fk_parents": "",
             "data_type": "bool",
             "table_name": "addresses",
-            "entity": ""
+            "entity": "client"
         },
         "transform_casrec": {
             "casrec_table": "PAT",

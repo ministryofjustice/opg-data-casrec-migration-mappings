@@ -8,7 +8,7 @@
             "fk_parents": "",
             "data_type": "int",
             "table_name": "phonenumbers",
-            "entity": ""
+            "entity": "deputy"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -30,7 +30,7 @@
             "fk_parents": "persons:id",
             "data_type": "int",
             "table_name": "phonenumbers",
-            "entity": ""
+            "entity": "deputy"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -52,7 +52,7 @@
             "fk_parents": "",
             "data_type": "str",
             "table_name": "phonenumbers",
-            "entity": ""
+            "entity": "deputy"
         },
         "transform_casrec": {
             "casrec_table": "DEPUTY",
@@ -74,7 +74,7 @@
             "fk_parents": "",
             "data_type": "str",
             "table_name": "phonenumbers",
-            "entity": ""
+            "entity": "deputy"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -96,7 +96,7 @@
             "fk_parents": "",
             "data_type": "bool",
             "table_name": "phonenumbers",
-            "entity": ""
+            "entity": "deputy"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -118,7 +118,7 @@
             "fk_parents": "",
             "data_type": "datetime",
             "table_name": "phonenumbers",
-            "entity": ""
+            "entity": "deputy"
         },
         "transform_casrec": {
             "casrec_table": "",
