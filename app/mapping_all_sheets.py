@@ -14,6 +14,7 @@ class Mapping:
     def __init__(
         self,
         mapping_doc_name: str,
+        timeline_doc_name: str,
         columns: List[str] = [],
         new_format: bool = False,
         file_paths: dict = {},
@@ -29,9 +30,12 @@ class Mapping:
 
         self.paths = file_paths if len(file_paths) > 0 else self.default_paths
         self.excel_doc = mapping_doc_name
+        self.excel_doc_timeline = timeline_doc_name
         self.index_column = "column_name"
+        self.timeline_index_column = "sirius_table"
         self.source_column_name = "casrec_column_name"
         self.lookup_table_name = "lookup"
+        self.timeline_indicator_column = "timeline"
         self.new_format = new_format
         self.default_columns = [
             "casrec_table",
@@ -258,13 +262,54 @@ class Mapping:
 
         return all_sheets
 
-    def export_single_module_as_json_file(self, module_name: str, mapping_dict: Dict):
-        path = self.paths["mapping_definitions_output"]
+    def get_single_timeline_sheet_as_dict(self, sheet_name) -> Dict:
+
+        dirname = os.path.dirname(__file__)
+        path = "mapping_spreadsheet"
+        file_path = os.path.join(dirname, "..", path, self.excel_doc_timeline)
+        excel_df = pd.ExcelFile(file_path)
+
+        timeline_df = pd.read_excel(excel_df, sheet_name)
+
+        sirius_table = list(set(timeline_df['sirius_table'].values))[0]
+        casrec_table = list(set(timeline_df['casrec_table'].values))[0]
+        entity = list(set(timeline_df['entity'].values))[0]
+
+        timeline_cols_df = timeline_df[['casrec_column', 'timeline_alias']]
+        timeline_cols_df = timeline_cols_df.set_index("casrec_column")
+        timeline_cols_dict = timeline_cols_df.to_dict("index")
+
+        timeline_cols_dict = {k:v['timeline_alias'] if str(v['timeline_alias']) != "nan" else k for k, v in timeline_cols_dict.items() }
+
+
+        timeline_dict = {
+            "sirius_table": sirius_table,
+            "casrec_table":casrec_table,
+            "entity": entity,
+            "timeline_cols": timeline_cols_dict
+        }
+
+        return timeline_dict
+
+
+
+
+
+    def export_single_module_as_json_file(self, module_name: str, mapping_dict: Dict, is_timeline=False):
+
+        if is_timeline:
+            filename = f"{module_name}_timeline"
+            path = f'{self.paths["mapping_definitions_output"]}/timeline'
+        else:
+            filename = module_name
+            path = self.paths["mapping_definitions_output"]
+
 
         if not os.path.exists(path):
             os.makedirs(path)
 
-        with open(f"{path}/{module_name}_mapping.json", "w") as json_out:
+
+        with open(f"{path}/{filename}_mapping.json", "w") as json_out:
             json.dump(mapping_dict, json_out, indent=4)
 
     def export_summary_as_json_file(self):
@@ -316,6 +361,9 @@ class Mapping:
 
         return from_template
 
+
+
+
     def generate_json_files(self):
         dirname = os.path.dirname(__file__)
         path = "template"
@@ -330,10 +378,18 @@ class Mapping:
         for module in all_modules:
             for name, df in module.items():
                 print(f"generating {name}")
+
                 if self.lookup_table_name in name:
                     self._convert_lookup_to_dict(name, df)
                 else:
                     module_dict = self._clean_up_and_convert_to_dict(df=df)
+                    try:
+                        timeline_dict = self.get_single_timeline_sheet_as_dict(sheet_name=name)
+                        self.export_single_module_as_json_file(
+                            module_name=name, mapping_dict=timeline_dict, is_timeline=True
+                        )
+                    except Exception:
+                        pass
 
                     self._add_single_module_details_to_summary(
                         module_name=name, mapping_dict=module_dict

@@ -1,0 +1,12 @@
+{
+    "sirius_table": "persons",
+    "casrec_table": "PAT",
+    "entity": "client",
+    "timeline_cols": {
+        "DOB": "birthdate",
+        "Term Date": "Term Date",
+        "Title": "Title",
+        "Forename": "Forename",
+        "Surname": "Surname"
+    }
+}
