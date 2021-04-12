@@ -377,13 +377,14 @@ class Mapping:
 
         for module in all_modules:
             for name, df in module.items():
-                print(f"generating {name}")
+                print(f"generating {name} mapping def")
 
                 if self.lookup_table_name in name:
                     self._convert_lookup_to_dict(name, df)
                 else:
                     module_dict = self._clean_up_and_convert_to_dict(df=df)
                     try:
+                        print(f"generating {name} timeline def")
                         timeline_dict = self.get_single_timeline_sheet_as_dict(sheet_name=name)
                         self.export_single_module_as_json_file(
                             module_name=name, mapping_dict=timeline_dict, is_timeline=True
