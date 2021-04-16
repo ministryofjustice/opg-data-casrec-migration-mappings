@@ -52,7 +52,9 @@ class Mapping:
             # 'fk_children',
             "fk_parents",
             "is_complete",
-            "entity"
+            "entity",
+            "sirius_table_pk_column",
+            "conditions"
         ]
         self.columns = columns if len(columns) > 0 else self.default_columns
         self.summary = {}
@@ -264,16 +266,23 @@ class Mapping:
 
     def get_single_timeline_sheet_as_dict(self, sheet_name) -> Dict:
 
+
         dirname = os.path.dirname(__file__)
         path = "mapping_spreadsheet"
         file_path = os.path.join(dirname, "..", path, self.excel_doc_timeline)
         excel_df = pd.ExcelFile(file_path)
 
+
         timeline_df = pd.read_excel(excel_df, sheet_name)
+        # print(timeline_df)
 
         sirius_table = list(set(timeline_df['sirius_table'].values))[0]
+        sirius_table_pk_column = list(set(timeline_df['sirius_table_pk_column'].values))[0]
         casrec_table = list(set(timeline_df['casrec_table'].values))[0]
         entity = list(set(timeline_df['entity'].values))[0]
+
+        conditions = list(set(timeline_df['conditions'].values))[0]
+
 
         timeline_cols_df = timeline_df[['casrec_column', 'timeline_alias']]
         timeline_cols_df = timeline_cols_df.set_index("casrec_column")
@@ -286,6 +295,8 @@ class Mapping:
             "sirius_table": sirius_table,
             "casrec_table":casrec_table,
             "entity": entity,
+            "sirius_table_pk_column": sirius_table_pk_column,
+            "conditions": {conditions.split('=')[0]:conditions.split('=')[1]},
             "timeline_cols": timeline_cols_dict
         }
 

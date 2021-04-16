@@ -2,6 +2,10 @@
     "sirius_table": "persons",
     "casrec_table": "PAT",
     "entity": "clients",
+    "sirius_table_pk_column": "id",
+    "conditions": {
+        "type": "actor_client"
+    },
     "timeline_cols": {
         "DOB": "birthdate",
         "Term Date": "Term Date",
