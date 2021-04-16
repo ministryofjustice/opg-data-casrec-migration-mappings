@@ -386,37 +386,36 @@ class Mapping:
 
         for module in all_modules:
             for name, df in module.items():
-                if name =='client_persons':
-                    print(f"generating {name} mapping def")
+                print(f"generating {name} mapping def")
 
-                    if self.lookup_table_name in name:
-                        self._convert_lookup_to_dict(name, df)
-                    else:
-                        module_dict = self._clean_up_and_convert_to_dict(df=df)
-                        try:
-                            print(f"generating {name} additional data def")
-                            additional_data_dict = self.get_single_additional_sheet_as_dict(sheet_name=name)
+                if self.lookup_table_name in name:
+                    self._convert_lookup_to_dict(name, df)
+                else:
+                    module_dict = self._clean_up_and_convert_to_dict(df=df)
+                    try:
+                        print(f"generating {name} additional data def")
+                        additional_data_dict = self.get_single_additional_sheet_as_dict(sheet_name=name)
 
-                            self.export_single_module_as_json_file(
-                                module_name=name, mapping_dict=additional_data_dict, is_additional_data=True
-                            )
-                        except Exception:
-                            pass
-
-                        self._add_single_module_details_to_summary(
-                            module_name=name, mapping_dict=module_dict
+                        self.export_single_module_as_json_file(
+                            module_name=name, mapping_dict=additional_data_dict, is_additional_data=True
                         )
-                        if len(module_dict) > 0:
-                            module_dict = self._format_multiple_columns(
+                    except Exception:
+                        pass
+
+                    self._add_single_module_details_to_summary(
+                        module_name=name, mapping_dict=module_dict
+                    )
+                    if len(module_dict) > 0:
+                        module_dict = self._format_multiple_columns(
+                            mapping_dict=module_dict
+                        )
+
+                        if self.new_format:
+                            module_dict = self._convert_dict_to_new_format(
                                 mapping_dict=module_dict
                             )
 
-                            if self.new_format:
-                                module_dict = self._convert_dict_to_new_format(
-                                    mapping_dict=module_dict
-                                )
-
-                            self.export_single_module_as_json_file(
-                                module_name=name, mapping_dict=module_dict
-                            )
+                        self.export_single_module_as_json_file(
+                            module_name=name, mapping_dict=module_dict
+                        )
         self.export_summary_as_json_file()
