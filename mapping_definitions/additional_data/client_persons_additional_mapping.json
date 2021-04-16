@@ -6,7 +6,7 @@
     "conditions": {
         "type": "actor_client"
     },
-    "timeline_cols": {
+    "detail_cols": {
         "DOB": "birthdate",
         "Term Date": "Term Date",
         "Title": "Title",

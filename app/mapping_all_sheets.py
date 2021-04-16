@@ -14,7 +14,7 @@ class Mapping:
     def __init__(
         self,
         mapping_doc_name: str,
-        timeline_doc_name: str,
+        additional_data_doc_name: str,
         columns: List[str] = [],
         new_format: bool = False,
         file_paths: dict = {},
@@ -30,12 +30,10 @@ class Mapping:
 
         self.paths = file_paths if len(file_paths) > 0 else self.default_paths
         self.excel_doc = mapping_doc_name
-        self.excel_doc_timeline = timeline_doc_name
+        self.excel_doc_additional = additional_data_doc_name
         self.index_column = "column_name"
-        self.timeline_index_column = "sirius_table"
         self.source_column_name = "casrec_column_name"
         self.lookup_table_name = "lookup"
-        self.timeline_indicator_column = "timeline"
         self.new_format = new_format
         self.default_columns = [
             "casrec_table",
@@ -264,53 +262,53 @@ class Mapping:
 
         return all_sheets
 
-    def get_single_timeline_sheet_as_dict(self, sheet_name) -> Dict:
-
+    def get_single_additional_sheet_as_dict(self, sheet_name) -> Dict:
+        print("get_single_additional_sheet_as_dict")
 
         dirname = os.path.dirname(__file__)
         path = "mapping_spreadsheet"
-        file_path = os.path.join(dirname, "..", path, self.excel_doc_timeline)
+        file_path = os.path.join(dirname, "..", path, self.excel_doc_additional)
         excel_df = pd.ExcelFile(file_path)
 
 
-        timeline_df = pd.read_excel(excel_df, sheet_name)
-        # print(timeline_df)
-
-        sirius_table = list(set(timeline_df['sirius_table'].values))[0]
-        sirius_table_pk_column = list(set(timeline_df['sirius_table_pk_column'].values))[0]
-        casrec_table = list(set(timeline_df['casrec_table'].values))[0]
-        entity = list(set(timeline_df['entity'].values))[0]
-
-        conditions = list(set(timeline_df['conditions'].values))[0]
+        additional_df = pd.read_excel(excel_df, sheet_name)
 
 
-        timeline_cols_df = timeline_df[['casrec_column', 'timeline_alias']]
-        timeline_cols_df = timeline_cols_df.set_index("casrec_column")
-        timeline_cols_dict = timeline_cols_df.to_dict("index")
+        sirius_table = list(set(additional_df['sirius_table'].values))[0]
+        sirius_table_pk_column = list(set(additional_df['sirius_table_pk_column'].values))[0]
+        casrec_table = list(set(additional_df['casrec_table'].values))[0]
+        entity = list(set(additional_df['entity'].values))[0]
 
-        timeline_cols_dict = {k:v['timeline_alias'] if str(v['timeline_alias']) != "nan" else k for k, v in timeline_cols_dict.items() }
+        conditions = list(set(additional_df['conditions'].values))[0]
 
 
-        timeline_dict = {
+        additional_cols_df = additional_df[['casrec_column', 'sirius_alias']]
+        additional_cols_df = additional_cols_df.set_index("casrec_column")
+        additional_cols_dict = additional_cols_df.to_dict("index")
+
+
+        additional_cols_dict = {k:v['sirius_alias'] if str(v['sirius_alias']) != "nan" else k for k, v in additional_cols_dict.items() }
+
+        additional_dict = {
             "sirius_table": sirius_table,
             "casrec_table":casrec_table,
             "entity": entity,
             "sirius_table_pk_column": sirius_table_pk_column,
             "conditions": {conditions.split('=')[0]:conditions.split('=')[1]},
-            "timeline_cols": timeline_cols_dict
+            "detail_cols": additional_cols_dict
         }
 
-        return timeline_dict
+        return additional_dict
 
 
 
 
 
-    def export_single_module_as_json_file(self, module_name: str, mapping_dict: Dict, is_timeline=False):
+    def export_single_module_as_json_file(self, module_name: str, mapping_dict: Dict, is_additional_data=False):
 
-        if is_timeline:
-            filename = f"{module_name}_timeline"
-            path = f'{self.paths["mapping_definitions_output"]}/timeline'
+        if is_additional_data:
+            filename = f"{module_name}_additional"
+            path = f'{self.paths["mapping_definitions_output"]}/additional_data'
         else:
             filename = module_name
             path = self.paths["mapping_definitions_output"]
@@ -388,35 +386,37 @@ class Mapping:
 
         for module in all_modules:
             for name, df in module.items():
-                print(f"generating {name} mapping def")
+                if name =='client_persons':
+                    print(f"generating {name} mapping def")
 
-                if self.lookup_table_name in name:
-                    self._convert_lookup_to_dict(name, df)
-                else:
-                    module_dict = self._clean_up_and_convert_to_dict(df=df)
-                    try:
-                        print(f"generating {name} timeline def")
-                        timeline_dict = self.get_single_timeline_sheet_as_dict(sheet_name=name)
-                        self.export_single_module_as_json_file(
-                            module_name=name, mapping_dict=timeline_dict, is_timeline=True
+                    if self.lookup_table_name in name:
+                        self._convert_lookup_to_dict(name, df)
+                    else:
+                        module_dict = self._clean_up_and_convert_to_dict(df=df)
+                        try:
+                            print(f"generating {name} additional data def")
+                            additional_data_dict = self.get_single_additional_sheet_as_dict(sheet_name=name)
+
+                            self.export_single_module_as_json_file(
+                                module_name=name, mapping_dict=additional_data_dict, is_additional_data=True
+                            )
+                        except Exception:
+                            pass
+
+                        self._add_single_module_details_to_summary(
+                            module_name=name, mapping_dict=module_dict
                         )
-                    except Exception:
-                        pass
-
-                    self._add_single_module_details_to_summary(
-                        module_name=name, mapping_dict=module_dict
-                    )
-                    if len(module_dict) > 0:
-                        module_dict = self._format_multiple_columns(
-                            mapping_dict=module_dict
-                        )
-
-                        if self.new_format:
-                            module_dict = self._convert_dict_to_new_format(
+                        if len(module_dict) > 0:
+                            module_dict = self._format_multiple_columns(
                                 mapping_dict=module_dict
                             )
 
-                        self.export_single_module_as_json_file(
-                            module_name=name, mapping_dict=module_dict
-                        )
+                            if self.new_format:
+                                module_dict = self._convert_dict_to_new_format(
+                                    mapping_dict=module_dict
+                                )
+
+                            self.export_single_module_as_json_file(
+                                module_name=name, mapping_dict=module_dict
+                            )
         self.export_summary_as_json_file()

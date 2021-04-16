@@ -19,9 +19,9 @@ from upload_to_s3 import zip_dir
 def main(new_format, ci_stage, role, local):
 
     mapping_doc_name = "Casrec_Mapping_Document.xlsx"
-    timeline_doc_name = "Timeline_Mapping_Document.xlsx"
+    additional_data_doc_name = "Additional_Data_Mapping_Document.xlsx"
 
-    mapping = Mapping(mapping_doc_name=mapping_doc_name, timeline_doc_name=timeline_doc_name, new_format=new_format,)
+    mapping = Mapping(mapping_doc_name=mapping_doc_name, additional_data_doc_name=additional_data_doc_name, new_format=new_format, )
     mapping.generate_json_files()
 
     if not local:
