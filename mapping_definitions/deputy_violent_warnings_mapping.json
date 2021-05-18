@@ -38,7 +38,7 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": 1,
+            "default_value": 2,
             "calculated": "",
             "additional_columns": ""
         }
@@ -80,9 +80,9 @@
             "casrec_table": "DEPUTY",
             "casrec_column_name": "VWM",
             "alias": "VWM",
-            "requires_transformation": "conditional_lookup",
+            "requires_transformation": "",
             "lookup_table": "warning_violent_lookup",
-            "default_value": "Violent Warning",
+            "default_value": "",
             "calculated": "",
             "additional_columns": ""
         }
@@ -102,9 +102,9 @@
             "casrec_table": "DEPUTY",
             "casrec_column_name": "VWM",
             "alias": "VWM 1",
-            "requires_transformation": "conditional_lookup",
+            "requires_transformation": "",
             "lookup_table": "warning_violent_lookup",
-            "default_value": "Violent Warning",
+            "default_value": "",
             "calculated": "",
             "additional_columns": ""
         }
@@ -122,9 +122,9 @@
         },
         "transform_casrec": {
             "casrec_table": "DEPUTY",
-            "casrec_column_name": "VWM",
-            "alias": "VWM 2",
-            "requires_transformation": "conditional_lookup",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
             "lookup_table": "warning_violent_lookup",
             "default_value": "",
             "calculated": "current_date",
@@ -170,7 +170,7 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": "",
+            "default_value": "DEFAULT",
             "calculated": "",
             "additional_columns": ""
         }
