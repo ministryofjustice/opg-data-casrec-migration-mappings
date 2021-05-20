@@ -245,7 +245,7 @@ class Mapping:
 
         for mapping_file in os.listdir(path):
             if os.path.isfile(os.path.join(path, mapping_file)):
-                if mapping_file[:2] != '~$':
+                if mapping_file[:2] != '~$' and 'Additional' not in mapping_file:
                     file_path =  os.path.join(dirname, "..", path, mapping_file)
                     excel_df = pd.ExcelFile(file_path)
 
