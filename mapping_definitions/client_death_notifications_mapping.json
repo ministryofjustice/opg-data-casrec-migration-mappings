@@ -125,7 +125,7 @@
             "casrec_column_name": "Term by",
             "alias": "Term by",
             "requires_transformation": "",
-            "lookup_table": "",
+            "lookup_table": "termby_lookup",
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
