@@ -80,11 +80,11 @@
             "casrec_table": "Deputy",
             "casrec_column_name": "Disch Death",
             "alias": "Disch Death",
-            "requires_transformation": "conditional_lookup",
-            "lookup_table": "deputy_date_of_death_lookup",
+            "requires_transformation": "",
+            "lookup_table": "",
             "default_value": "",
             "calculated": "",
-            "additional_columns": "Stat"
+            "additional_columns": ""
         }
     },
     "datedeathcertificatereceived": {
@@ -102,11 +102,11 @@
             "casrec_table": "Deputy",
             "casrec_column_name": "Disch Death",
             "alias": "Disch Death 1",
-            "requires_transformation": "conditional_lookup",
-            "lookup_table": "deputy_date_of_death_lookup",
+            "requires_transformation": "",
+            "lookup_table": "",
             "default_value": "",
             "calculated": "",
-            "additional_columns": "Stat"
+            "additional_columns": ""
         }
     },
     "datenotified": {
@@ -124,11 +124,11 @@
             "casrec_table": "Deputy",
             "casrec_column_name": "Disch Death",
             "alias": "Disch Death 2",
-            "requires_transformation": "conditional_lookup",
-            "lookup_table": "deputy_date_of_death_lookup",
+            "requires_transformation": "",
+            "lookup_table": "",
             "default_value": "",
             "calculated": "",
-            "additional_columns": "Stat"
+            "additional_columns": ""
         }
     },
     "notifiedby": {
@@ -150,7 +150,7 @@
             "lookup_table": "",
             "default_value": "OTHER",
             "calculated": "",
-            "additional_columns": "Stat"
+            "additional_columns": ""
         }
     },
     "notificationmethod": {
@@ -172,7 +172,7 @@
             "lookup_table": "",
             "default_value": "EMAIL",
             "calculated": "",
-            "additional_columns": "Term Type"
+            "additional_columns": ""
         }
     },
     "notes": {

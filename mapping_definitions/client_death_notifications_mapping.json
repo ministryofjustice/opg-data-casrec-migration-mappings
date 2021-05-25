@@ -58,11 +58,11 @@
             "casrec_table": "PAT",
             "casrec_column_name": "Letter Sent",
             "alias": "Letter Sent",
-            "requires_transformation": "conditional_lookup",
-            "lookup_table": "letter_sent_death_lookup",
+            "requires_transformation": "",
+            "lookup_table": "",
             "default_value": "",
             "calculated": "",
-            "additional_columns": "Term Type"
+            "additional_columns": ""
         }
     },
     "datedeathcertificatereceived": {
@@ -102,11 +102,11 @@
             "casrec_table": "PAT",
             "casrec_column_name": "Notified",
             "alias": "Notified",
-            "requires_transformation": "conditional_lookup",
-            "lookup_table": "notified_lookup",
+            "requires_transformation": "",
+            "lookup_table": "",
             "default_value": "",
             "calculated": "",
-            "additional_columns": "Term Type"
+            "additional_columns": ""
         }
     },
     "notifiedby": {
@@ -124,11 +124,11 @@
             "casrec_table": "PAT",
             "casrec_column_name": "Term by",
             "alias": "Term by",
-            "requires_transformation": "conditional_lookup",
-            "lookup_table": "termby_lookup\ntermby_type_lookup",
+            "requires_transformation": "",
+            "lookup_table": "",
             "default_value": "",
             "calculated": "",
-            "additional_columns": "Term Type"
+            "additional_columns": ""
         }
     },
     "notificationmethod": {
@@ -146,11 +146,11 @@
             "casrec_table": "PAT",
             "casrec_column_name": "Notify",
             "alias": "Notify",
-            "requires_transformation": "conditional_lookup",
-            "lookup_table": "notify_lookup\nnotify_type_lookup",
+            "requires_transformation": "",
+            "lookup_table": "notify_type_lookup",
             "default_value": "",
             "calculated": "",
-            "additional_columns": "Term Type"
+            "additional_columns": ""
         }
     },
     "notes": {
