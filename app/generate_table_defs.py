@@ -1,9 +1,12 @@
 import os
 import json
+import numpy as np
 
 def create_table_def_json(df, name, destination):
     print(f"creating table defs: {name}")
+    print(f"name: {name}")
 
+    df = df.replace(np.nan, "")
     df = df.set_index("mapping_file_name")
     table_def_dict = df.to_dict("index")
 

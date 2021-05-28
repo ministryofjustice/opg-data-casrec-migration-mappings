@@ -1,0 +1,9 @@
+{
+    "entity": "client",
+    "required_entities": "",
+    "sirius_table": "phonenumbers",
+    "table_type": "data",
+    "casrec_table": "pat",
+    "casrec_conditions": "",
+    "casrec_additional_columns": "Case"
+}

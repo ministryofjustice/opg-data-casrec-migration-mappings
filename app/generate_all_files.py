@@ -19,7 +19,7 @@ def generate_files(spreadsheet_name, destination):
     for sheet in excel_df.sheet_names:
         print(f"sheet: {sheet}")
         df = pd.read_excel(excel_df, sheet_name=sheet)
-        if sheet == 'table_definitions':
+        if sheet == 'table_definition':
             create_table_def_json(df=df, name=sheet, destination=destination)
         elif 'lookup' in sheet:
             create_lookup_table_json(df=df, name=sheet, destination=destination)
