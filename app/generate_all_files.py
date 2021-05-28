@@ -1,33 +1,28 @@
 import os
 import pandas as pd
-from pathlib import Path
+from config import config
 
-from app.generate_json_def import generate_json_files
-from app.generate_lookup_table_json import create_lookup_table_json
-from app.generate_table_defs import create_table_def_json
+from generate_json_def import generate_json_files
+from generate_lookup_table_json import create_lookup_table_json
+from generate_table_defs import create_table_def_json
 
 
-def generate_files(spreadsheet_name):
+def generate_files(spreadsheet_name, destination):
+    print(f"spreadsheet_name: {spreadsheet_name}")
     dirname = os.path.dirname(__file__)
-    path = "mapping_spreadsheet"
 
-    file_path = os.path.join(dirname, "..", path, spreadsheet_name)
+    file_path = os.path.join(dirname, "..", config['SPREADSHEET_PATH'], spreadsheet_name)
     excel_df = pd.ExcelFile(file_path)
 
     for sheet in excel_df.sheet_names:
-        df = pd.read_excel(excel_df, spreadsheet_name=sheet)
+        print(f"sheet: {sheet}")
+        df = pd.read_excel(excel_df, sheet_name=sheet)
         if sheet == 'table_definitions':
-            create_table_def_json(table_definition_df=df)
-        elif 'lookup_table' in sheet:
-            create_lookup_table_json(df=df, name=sheet)
+            create_table_def_json(df=df, name=sheet, destination=destination)
+        elif 'lookup' in sheet:
+            create_lookup_table_json(df=df, name=sheet, destination=destination)
         else:
-            generate_json_files(df=df, name=sheet)
+            generate_json_files(df=df, name=sheet, destination=destination)
 
 
 
-def create_entity_folder(entity_name):
-    try:
-        Path(f"/mapping_definitions_new/{entity_name}").mkdir(parents=True, exist_ok=True)
-        print(f"Folder '{entity_name}' created")
-    except Exception as e:
-        print(f"e: {e}")
