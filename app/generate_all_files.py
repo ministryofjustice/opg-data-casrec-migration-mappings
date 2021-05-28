@@ -1,5 +1,7 @@
 import os
 import pandas as pd
+
+
 from config import config
 
 from generate_json_def import generate_json_files
@@ -23,6 +25,3 @@ def generate_files(spreadsheet_name, destination):
             create_lookup_table_json(df=df, name=sheet, destination=destination)
         else:
             generate_json_files(df=df, name=sheet, destination=destination)
-
-
-

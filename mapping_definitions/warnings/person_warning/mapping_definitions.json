@@ -1,0 +1,34 @@
+{
+    "person_id": {
+        "is_pk": true,
+        "entity": "warning",
+        "is_complete": true,
+        "casrec_column_name": "",
+        "default_value": "",
+        "data_type": "int",
+        "calculated": "",
+        "casrec_table": "",
+        "additional_columns": "",
+        "lookup_table": "",
+        "alias": "",
+        "fk_parents": "persons:id",
+        "table_name": "person_warning",
+        "requires_transformation": ""
+    },
+    "warning_id": {
+        "is_pk": true,
+        "entity": "warning",
+        "is_complete": true,
+        "casrec_column_name": "",
+        "default_value": "",
+        "data_type": "int",
+        "calculated": "",
+        "casrec_table": "",
+        "additional_columns": "",
+        "lookup_table": "",
+        "alias": "",
+        "fk_parents": "warnings:id",
+        "table_name": "person_warning",
+        "requires_transformation": ""
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "": {
+        "sirius_mapping": "NO ACCOMMODATION TYPE"
+    },
+    "CR": {
+        "sirius_mapping": "COUNCIL RENTED"
+    },
+    "GPH": {
+        "sirius_mapping": "SUPERVISED SHELTERED"
+    },
+    "HOS": {
+        "sirius_mapping": "HOSTEL"
+    },
+    "HOT": {
+        "sirius_mapping": "HOTEL"
+    },
+    "HSP": {
+        "sirius_mapping": "HEALTH SERVICE PATIENT"
+    },
+    "NFA": {
+        "sirius_mapping": "NO FIXED ADDRESS"
+    },
+    "NH": {
+        "sirius_mapping": "CARE/NURSING/RESIDENTIAL HOME (PRIVATE/LA/REGISTERED)"
+    },
+    "OH": {
+        "sirius_mapping": "OWN HOME"
+    },
+    "OTH": {
+        "sirius_mapping": "OTHER"
+    },
+    "PH": {
+        "sirius_mapping": "PRIVATE HOSPITAL"
+    },
+    "PT3": {
+        "sirius_mapping": "LA PART 3 ACCOMMODATION"
+    },
+    "RCH": {
+        "sirius_mapping": ""
+    },
+    "REN": {
+        "sirius_mapping": "PRIVATE RENTED"
+    },
+    "RH": {
+        "sirius_mapping": ""
+    },
+    "FM": {
+        "sirius_mapping": "FAMILY MEMBER/FRIEND'S HOME"
+    },
+    "HA": {
+        "sirius_mapping": "HOUSING ASSOCIATION"
+    },
+    "SH": {
+        "sirius_mapping": "SUPPORTED HOUSING"
+    },
+    "LAH": {
+        "sirius_mapping": ""
+    },
+    "NAC": {
+        "sirius_mapping": "NHS ACCOMMODATION"
+    },
+    "SL": {
+        "sirius_mapping": "SUPPORTED LIVING"
+    },
+    "SEC": {
+        "sirius_mapping": "SECURE HOSPITAL"
+    }
+}

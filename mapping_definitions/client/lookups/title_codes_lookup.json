@@ -1,0 +1,110 @@
+{
+    "1": {
+        "sirius_mapping": "Mr"
+    },
+    "2": {
+        "sirius_mapping": "Mrs"
+    },
+    "3": {
+        "sirius_mapping": "Miss"
+    },
+    "4": {
+        "sirius_mapping": "Ms"
+    },
+    "5": {
+        "sirius_mapping": "Master"
+    },
+    "6": {
+        "sirius_mapping": "Doctor"
+    },
+    "7": {
+        "sirius_mapping": "Sir"
+    },
+    "8": {
+        "sirius_mapping": "Lady"
+    },
+    "9": {
+        "sirius_mapping": "Professor"
+    },
+    "10": {
+        "sirius_mapping": "Lord"
+    },
+    "11": {
+        "sirius_mapping": "Right Honourable"
+    },
+    "12": {
+        "sirius_mapping": "Reverend"
+    },
+    "13": {
+        "sirius_mapping": "Father"
+    },
+    "14": {
+        "sirius_mapping": "Rabbi"
+    },
+    "15": {
+        "sirius_mapping": "Baron"
+    },
+    "16": {
+        "sirius_mapping": "Baroness"
+    },
+    "17": {
+        "sirius_mapping": "Right Honourable Mr"
+    },
+    "18": {
+        "sirius_mapping": "Right Honourable Mrs"
+    },
+    "19": {
+        "sirius_mapping": "The Honourable"
+    },
+    "20": {
+        "sirius_mapping": "Canon"
+    },
+    "99": {
+        "sirius_mapping": "Unknown"
+    },
+    "21": {
+        "sirius_mapping": "Sister"
+    },
+    "22": {
+        "sirius_mapping": "Messrs"
+    },
+    "23": {
+        "sirius_mapping": "The Holder of The Office of"
+    },
+    "24": {
+        "sirius_mapping": "Trust Corporation"
+    },
+    "25": {
+        "sirius_mapping": "Reverend Mrs"
+    },
+    "26": {
+        "sirius_mapping": "Captain"
+    },
+    "27": {
+        "sirius_mapping": "Dame"
+    },
+    "28": {
+        "sirius_mapping": "Major"
+    },
+    "29": {
+        "sirius_mapping": "Colonel"
+    },
+    "30": {
+        "sirius_mapping": "The Authorised Officer for"
+    },
+    "90": {
+        "sirius_mapping": "Monsignor"
+    },
+    "31": {
+        "sirius_mapping": "His Honour"
+    },
+    "32": {
+        "sirius_mapping": "Eur Ing"
+    },
+    "33": {
+        "sirius_mapping": "Sergeant"
+    },
+    "34": {
+        "sirius_mapping": "Brigadier"
+    }
+}

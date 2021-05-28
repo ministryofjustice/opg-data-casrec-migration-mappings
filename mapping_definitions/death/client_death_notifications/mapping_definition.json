@@ -1,0 +1,178 @@
+{
+    "id": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": true,
+            "fk_parents": "",
+            "data_type": "int",
+            "table_name": "death_notifications",
+            "entity": "death_notification"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "person_id": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "persons:id",
+            "data_type": "int",
+            "table_name": "death_notifications",
+            "entity": "death_notification"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "datelettersentout": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "date",
+            "table_name": "death_notifications",
+            "entity": "death_notification"
+        },
+        "transform_casrec": {
+            "casrec_table": "PAT",
+            "casrec_column_name": "Letter Sent",
+            "alias": "Letter Sent",
+            "requires_transformation": "conditional_lookup",
+            "lookup_table": "letter_sent_death_lookup",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": "Term Type"
+        }
+    },
+    "datedeathcertificatereceived": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "date",
+            "table_name": "death_notifications",
+            "entity": "death_notification"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "datenotified": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "date",
+            "table_name": "death_notifications",
+            "entity": "death_notification"
+        },
+        "transform_casrec": {
+            "casrec_table": "PAT",
+            "casrec_column_name": "Notified",
+            "alias": "Notified",
+            "requires_transformation": "conditional_lookup",
+            "lookup_table": "notified_lookup",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": "Term Type"
+        }
+    },
+    "notifiedby": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "death_notifications",
+            "entity": "death_notification"
+        },
+        "transform_casrec": {
+            "casrec_table": "PAT",
+            "casrec_column_name": "Term by",
+            "alias": "Term by",
+            "requires_transformation": "conditional_lookup",
+            "lookup_table": "termby_lookup\ntermby_type_lookup",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": "Term Type"
+        }
+    },
+    "notificationmethod": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "death_notifications",
+            "entity": "death_notification"
+        },
+        "transform_casrec": {
+            "casrec_table": "PAT",
+            "casrec_column_name": "Notify",
+            "alias": "Notify",
+            "requires_transformation": "conditional_lookup",
+            "lookup_table": "notify_lookup\nnotify_type_lookup",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": "Term Type"
+        }
+    },
+    "notes": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "death_notifications",
+            "entity": "death_notification"
+        },
+        "transform_casrec": {
+            "casrec_table": "PAT",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "Migrated",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    }
+}

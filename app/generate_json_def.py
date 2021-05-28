@@ -143,9 +143,6 @@ def convert_dict_to_new_format(mapping_dict: Dict) -> Dict:
     path = "template"
     file_path = os.path.join(dirname, path, "mapping_template.json")
 
-    #
-    # path = paths["json_template"]
-    # file_path = f"{path}/mapping_template.json"
 
     with open(file_path, "r") as template_json:
         template_data = template_json.read()
@@ -170,7 +167,7 @@ def export_single_module_as_json_file(module_name: str, mapping_dict: Dict, dest
     if not os.path.exists(path):
         os.makedirs(path)
 
-    with open(f"{path}/mapping_definitions.json", "w") as json_out:
+    with open(f"{path}/mapping_definition.json", "w") as json_out:
         json.dump(mapping_dict, json_out, indent=4)
 
 
@@ -185,7 +182,8 @@ def generate_json_files(df, name, destination):
             mapping_dict=module_dict
         )
 
-        convert_dict_to_new_format(mapping_dict=module_dict)
+        module_dict = convert_dict_to_new_format(mapping_dict=module_dict)
+
 
         export_single_module_as_json_file(
             module_name=name, mapping_dict=module_dict, destination=destination

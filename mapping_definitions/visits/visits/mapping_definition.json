@@ -1,0 +1,398 @@
+{
+    "id": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": true,
+            "fk_parents": "",
+            "data_type": "int",
+            "table_name": "visits",
+            "entity": "visits"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "client_id": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "persons:id",
+            "data_type": "int",
+            "table_name": "visits",
+            "entity": "visits"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "visittype": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "visits",
+            "entity": "visits"
+        },
+        "transform_casrec": {
+            "casrec_table": "REPVIS",
+            "casrec_column_name": "Req By",
+            "alias": "Req By",
+            "requires_transformation": "",
+            "lookup_table": "visit_type_lookup",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "visitcreateddate": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "datetime",
+            "table_name": "visits",
+            "entity": "visits"
+        },
+        "transform_casrec": {
+            "casrec_table": "REPVIS",
+            "casrec_column_name": "Create",
+            "alias": "Create",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "visitreportduedate": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "datetime",
+            "table_name": "visits",
+            "entity": "visits"
+        },
+        "transform_casrec": {
+            "casrec_table": "REPVIS",
+            "casrec_column_name": "Commission Issued",
+            "alias": "Commission Issued",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "visitoutcome": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "visits",
+            "entity": "visits"
+        },
+        "transform_casrec": {
+            "casrec_table": "REPVIS",
+            "casrec_column_name": "Outcome",
+            "alias": "Outcome",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "visitcompleteddate": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "datetime",
+            "table_name": "visits",
+            "entity": "visits"
+        },
+        "transform_casrec": {
+            "casrec_table": "REPVIS",
+            "casrec_column_name": "Date Completed",
+            "alias": "Date Completed",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "visitreportreceiveddate": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "datetime",
+            "table_name": "visits",
+            "entity": "visits"
+        },
+        "transform_casrec": {
+            "casrec_table": "REPVIS",
+            "casrec_column_name": "Report Rcvd.",
+            "alias": "Report Rcvd.",
+            "requires_transformation": "",
+            "lookup_table": "visit_outcome_lookup",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "visitreportmarkedas": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "visits",
+            "entity": "visits"
+        },
+        "transform_casrec": {
+            "casrec_table": "REPVIS",
+            "casrec_column_name": "Category",
+            "alias": "Category",
+            "requires_transformation": "",
+            "lookup_table": "visit_marked_lookup",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "visitreportrevieweddate": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "datetime",
+            "table_name": "visits",
+            "entity": "visits"
+        },
+        "transform_casrec": {
+            "casrec_table": "REPVIS",
+            "casrec_column_name": "Review Date",
+            "alias": "Review Date",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "visitvisitorallocated": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "visits",
+            "entity": "visits"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "visitcancellationreason": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "visits",
+            "entity": "visits"
+        },
+        "transform_casrec": {
+            "casrec_table": "REPVIS",
+            "casrec_column_name": "Reason",
+            "alias": "Reason",
+            "requires_transformation": "",
+            "lookup_table": "visit_outcome_reason_lookup",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "visitcommissiondate": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "datetime",
+            "table_name": "visits",
+            "entity": "visits"
+        },
+        "transform_casrec": {
+            "casrec_table": "REPVIS",
+            "casrec_column_name": "Commission Dated",
+            "alias": "Commission Dated",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "firstextendedvisitreportduedate": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "datetime",
+            "table_name": "visits",
+            "entity": "visits"
+        },
+        "transform_casrec": {
+            "casrec_table": "REPVIS",
+            "casrec_column_name": "Extension 1",
+            "alias": "Extension 1",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "secondextendedvisitreportduedate": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "datetime",
+            "table_name": "visits",
+            "entity": "visits"
+        },
+        "transform_casrec": {
+            "casrec_table": "REPVIS",
+            "casrec_column_name": "Extension 2",
+            "alias": "Extension 2",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "visitsubtype": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "visits",
+            "entity": "visits"
+        },
+        "transform_casrec": {
+            "casrec_table": "REPVIS",
+            "casrec_column_name": "Report Type",
+            "alias": "Report Type",
+            "requires_transformation": "",
+            "lookup_table": "visit_subtype_lookup",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "visiturgency": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "visits",
+            "entity": "visits"
+        },
+        "transform_casrec": {
+            "casrec_table": "REPVIS",
+            "casrec_column_name": "Reason Code",
+            "alias": "Reason Code",
+            "requires_transformation": "",
+            "lookup_table": "visit_reason_lookup",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "whotovisit": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "visits",
+            "entity": "visits"
+        },
+        "transform_casrec": {
+            "casrec_table": "REPVIS",
+            "casrec_column_name": "Rep On",
+            "alias": "Rep On",
+            "requires_transformation": "",
+            "lookup_table": "who_visit_lookup",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    }
+}

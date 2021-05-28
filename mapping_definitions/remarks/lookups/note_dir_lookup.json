@@ -1,0 +1,38 @@
+{
+    "R1": {
+        "sirius_mapping": "INTERNAL"
+    },
+    "R2": {
+        "sirius_mapping": "INTERNAL"
+    },
+    "R3": {
+        "sirius_mapping": "INTERNAL"
+    },
+    "R4": {
+        "sirius_mapping": "INTERNAL"
+    },
+    "R6": {
+        "sirius_mapping": "INTERNAL"
+    },
+    "R7": {
+        "sirius_mapping": "INTERNAL"
+    },
+    "R8": {
+        "sirius_mapping": "INCOMING"
+    },
+    "R9": {
+        "sirius_mapping": "INTERNAL"
+    },
+    "RA": {
+        "sirius_mapping": "INTERNAL"
+    },
+    "RB": {
+        "sirius_mapping": "INTERNAL"
+    },
+    "RD": {
+        "sirius_mapping": "INTERNAL"
+    },
+    "R5": {
+        "sirius_mapping": "INTERNAL"
+    }
+}

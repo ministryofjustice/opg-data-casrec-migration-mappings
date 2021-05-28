@@ -43,7 +43,7 @@ class Mapping:
             "calculated",
             "additional_columns",
             "is_pk",
-            "data_type",lookup
+            "data_type",
             "table_name",
             # 'fk_children',
             "fk_parents",

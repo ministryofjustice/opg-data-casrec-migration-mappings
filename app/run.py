@@ -1,38 +1,13 @@
 import os
-import re
-from pathlib import Path
 
+
+from generate_entity_folder import get_entity_name_from_file, create_entity_folder
 from config import config
-from generate_all_files import  generate_files
+from generate_all_files import generate_files
 
 
 
 
-def get_entity_name_from_file(file_name):
-    
-
-    
-
-    try:
-        entity_name = file_name[24:][:-5].lower()
-
-        print(f"starting entity: {entity_name}")
-        return entity_name
-
-    except Exception:
-        print(f"problem getting entity name from '{file_name}' {e}")
-
-
-def create_entity_folder(entity_name):
-    try:
-        path = f"./{config['DEFINITION_PATH']}/{entity_name}"
-
-        if not os.path.exists(path):
-            os.makedirs(path)
-        print(f"Folder '{entity_name}' created")
-        return path
-    except Exception as e:
-        print(f"e: {e}")
 
 
 def loop_through_files():
