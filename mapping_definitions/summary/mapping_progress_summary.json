@@ -115,16 +115,16 @@
             "percentage_complete": 33
         },
         "deputy_persons": {
-            "total_rows": 24,
+            "total_rows": 26,
             "total_unmapped": 0,
-            "total_mapped": 24,
+            "total_mapped": 26,
             "percentage_complete": 100
         },
         "order_deputy": {
             "total_rows": 6,
-            "total_unmapped": 3,
-            "total_mapped": 3,
-            "percentage_complete": 50
+            "total_unmapped": 4,
+            "total_mapped": 2,
+            "percentage_complete": 33
         },
         "deputy_addresses": {
             "total_rows": 9,
@@ -147,14 +147,14 @@
     },
     "total": {
         "worksheets": {
-            "total_sheets": 24,
+            "total_sheets": 26,
             "total_complete": 3
         },
         "fields": {
-            "total_fields": 272,
-            "total_unmapped": 70,
-            "total_mapped": 202,
-            "percentage_complete": 74
+            "total_fields": 294,
+            "total_unmapped": 81,
+            "total_mapped": 213,
+            "percentage_complete": 72
         }
     }
 }

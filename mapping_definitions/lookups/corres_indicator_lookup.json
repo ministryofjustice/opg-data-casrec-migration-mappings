@@ -1,11 +1,11 @@
 {
     "Y": {
-        "sirius_mapping": true
+        "sirius_mapping": 1
     },
     "N": {
-        "sirius_mapping": false
+        "sirius_mapping": 0
     },
     "": {
-        "sirius_mapping": false
+        "sirius_mapping": 0
     }
 }
