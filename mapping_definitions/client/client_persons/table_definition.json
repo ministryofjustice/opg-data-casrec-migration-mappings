@@ -1,9 +1,9 @@
 {
-    "entity": "client",
+    "entity_name": "client",
     "required_entities": "",
-    "sirius_table": "persons",
+    "destination_table_name": "persons",
     "table_type": "data",
-    "casrec_table": "pat",
+    "source_table_name": "pat",
     "casrec_conditions": "",
-    "casrec_additional_columns": "Term Type"
+    "source_table_additional_columns": "Term Type"
 }
