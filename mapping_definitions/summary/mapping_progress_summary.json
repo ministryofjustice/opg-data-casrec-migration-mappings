@@ -115,16 +115,16 @@
             "percentage_complete": 33
         },
         "deputy_persons": {
-            "total_rows": 24,
+            "total_rows": 26,
             "total_unmapped": 0,
-            "total_mapped": 24,
+            "total_mapped": 26,
             "percentage_complete": 100
         },
         "order_deputy": {
-            "total_rows": 6,
-            "total_unmapped": 3,
+            "total_rows": 8,
+            "total_unmapped": 5,
             "total_mapped": 3,
-            "percentage_complete": 50
+            "percentage_complete": 38
         },
         "deputy_addresses": {
             "total_rows": 9,
@@ -151,9 +151,9 @@
             "total_complete": 3
         },
         "fields": {
-            "total_fields": 272,
-            "total_unmapped": 70,
-            "total_mapped": 202,
+            "total_fields": 276,
+            "total_unmapped": 72,
+            "total_mapped": 204,
             "percentage_complete": 74
         }
     }
