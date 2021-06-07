@@ -3,6 +3,8 @@ import os
 import re
 from typing import Dict
 from typing import List
+
+from generate_summary import add_module_to_summary
 from config import config
 import pandas as pd
 
@@ -188,3 +190,5 @@ def generate_json_files(df, name, destination):
         export_single_module_as_json_file(
             module_name=name, mapping_dict=module_dict, destination=destination
         )
+
+        add_module_to_summary(module_name=name, mapping_dict=module_dict)
