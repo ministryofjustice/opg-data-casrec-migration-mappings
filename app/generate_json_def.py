@@ -117,6 +117,7 @@ def clean_up_and_convert_to_dict(df: pd.DataFrame) -> Dict:
     # set index to the column name so the to_dict pivots on the sirius column name
     mapping_df = mapping_df.set_index(json_def_config['index_column'])
     # convert to dictionary
+
     mapping_dict = mapping_df.to_dict("index")
 
     return mapping_dict

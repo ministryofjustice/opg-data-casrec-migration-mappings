@@ -25,6 +25,7 @@ def loop_through_files():
 
     for mapping_file in os.listdir(config['SPREADSHEET_PATH']):
         print(f"mapping_file: {mapping_file}")
+        # if mapping_file == 'Casrec_Mapping_Document_Bond.xlsx':
         if os.path.isfile(os.path.join(config['SPREADSHEET_PATH'], mapping_file)):
             if mapping_file[:2] != '~$':
                 entity_name = get_entity_name_from_file(file_name=mapping_file)
