@@ -1,5 +1,5 @@
 import os
-
+import shutil
 
 from generate_entity_folder import get_entity_name_from_file, create_entity_folder
 from config import config
@@ -7,10 +7,21 @@ from generate_all_files import generate_files
 
 
 
+def remove_old_files():
 
+    path = f"./{config['DEFINITION_PATH']}"
+
+    try:
+        shutil.rmtree(path)
+
+
+    except Exception as e:
+        print(f"e: {e}")
 
 
 def loop_through_files():
+
+    remove_old_files()
 
     for mapping_file in os.listdir(config['SPREADSHEET_PATH']):
         print(f"mapping_file: {mapping_file}")
