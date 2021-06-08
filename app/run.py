@@ -33,6 +33,6 @@ def loop_through_files():
                 generate_files(spreadsheet_name=mapping_file, destination=entity_file_path)
 
 
-loop_through_files()
+# loop_through_files()
 
 
