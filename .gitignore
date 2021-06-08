@@ -51,5 +51,7 @@ bin/
 lib/python3.8/site-packages/
 
 pyvenv.cfg
+/mapping_definitions_old/
+~$*
 
 mapping_definitions_previous
