@@ -1,0 +1,11 @@
+{
+    "entity_name": "deputies",
+    "required_entities": "",
+    "destination_table_name": "addresses",
+    "table_type": "data",
+    "source_table_name": "deputy_address",
+    "casrec_conditions": "",
+    "source_table_additional_columns": [
+        "Dep Addr No"
+    ]
+}

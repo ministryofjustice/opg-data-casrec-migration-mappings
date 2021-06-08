@@ -1,0 +1,13 @@
+{
+    "entity_name": "deputies",
+    "required_entities": "",
+    "destination_table_name": "persons",
+    "table_type": "data",
+    "source_table_name": "deputy",
+    "casrec_conditions": "",
+    "source_table_additional_columns": [
+        "Deputy No",
+        "Stat",
+        "Disch Death"
+    ]
+}

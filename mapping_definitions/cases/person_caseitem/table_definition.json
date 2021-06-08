@@ -1,0 +1,11 @@
+{
+    "entity_name": "cases",
+    "required_entities": "",
+    "destination_table_name": "person_caseitem",
+    "table_type": "join",
+    "source_table_name": "",
+    "casrec_conditions": "",
+    "source_table_additional_columns": [
+        ""
+    ]
+}

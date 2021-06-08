@@ -1,0 +1,14 @@
+{
+    "entity_name": "death",
+    "required_entities": "",
+    "destination_table_name": "death_notifications",
+    "table_type": "data",
+    "source_table_name": "deputy",
+    "casrec_conditions": {
+        "Stat": "99"
+    },
+    "source_table_additional_columns": [
+        "Stat",
+        "Deputy No"
+    ]
+}

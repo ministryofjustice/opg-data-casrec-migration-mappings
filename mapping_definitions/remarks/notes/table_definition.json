@@ -1,0 +1,11 @@
+{
+    "entity_name": "remarks",
+    "required_entities": "",
+    "destination_table_name": "notes",
+    "table_type": "data",
+    "source_table_name": "remarks",
+    "casrec_conditions": "",
+    "source_table_additional_columns": [
+        "Case"
+    ]
+}
