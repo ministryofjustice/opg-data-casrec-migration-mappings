@@ -1,0 +1,11 @@
+{
+    "entity_name": "supervision_level",
+    "required_entities": "",
+    "destination_table_name": "supervision_level_log",
+    "table_type": "data",
+    "source_table_name": "order",
+    "casrec_conditions": "",
+    "source_table_additional_columns": [
+        "Case"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "entity_name": "clients",
+    "required_entities": "",
+    "destination_table_name": "addresses",
+    "table_type": "data",
+    "source_table_name": "pat",
+    "casrec_conditions": "",
+    "source_table_additional_columns": [
+        "Case"
+    ]
+}

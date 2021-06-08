@@ -7,8 +7,7 @@
             "is_pk": true,
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "notes",
-            "entity": "remarks"
+            "table_name": "notes"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -29,8 +28,7 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "notes",
-            "entity": "remarks"
+            "table_name": "notes"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -51,8 +49,7 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "notes",
-            "entity": "remarks"
+            "table_name": "notes"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -73,8 +70,7 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "notes",
-            "entity": "remarks"
+            "table_name": "notes"
         },
         "transform_casrec": {
             "casrec_table": "REMARKS",
@@ -95,8 +91,7 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "notes",
-            "entity": "remarks"
+            "table_name": "notes"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -117,8 +112,7 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "notes",
-            "entity": "remarks"
+            "table_name": "notes"
         },
         "transform_casrec": {
             "casrec_table": "REMARKS",
@@ -139,8 +133,7 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "notes",
-            "entity": "remarks"
+            "table_name": "notes"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -161,8 +154,7 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "datetime",
-            "table_name": "notes",
-            "entity": "remarks"
+            "table_name": "notes"
         },
         "transform_casrec": {
             "casrec_table": "REMARKS",
@@ -183,8 +175,7 @@
             "is_pk": "",
             "fk_parents": "assignees:id",
             "data_type": "int",
-            "table_name": "notes",
-            "entity": "remarks"
+            "table_name": "notes"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -192,7 +183,7 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": 1,
+            "default_value": 2,
             "calculated": "",
             "additional_columns": ""
         }
@@ -205,8 +196,7 @@
             "is_pk": "",
             "fk_parents": "uploads:id",
             "data_type": "int",
-            "table_name": "notes",
-            "entity": "remarks"
+            "table_name": "notes"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -227,8 +217,7 @@
             "is_pk": "",
             "fk_parents": "documents:id",
             "data_type": "int",
-            "table_name": "notes",
-            "entity": "remarks"
+            "table_name": "notes"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -249,8 +238,7 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "notes",
-            "entity": "remarks"
+            "table_name": "notes"
         },
         "transform_casrec": {
             "casrec_table": "REMARKS",

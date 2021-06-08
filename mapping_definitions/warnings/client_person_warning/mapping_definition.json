@@ -1,13 +1,13 @@
 {
-    "id": {
+    "person_id": {
         "mapping_status": {
             "is_complete": true
         },
         "sirius_details": {
             "is_pk": true,
-            "fk_parents": "",
+            "fk_parents": "persons:id",
             "data_type": "int",
-            "table_name": "visitor"
+            "table_name": "person_warning"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -18,17 +18,20 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
         }
     },
-    "name": {
+    "warning_id": {
         "mapping_status": {
-            "is_complete": false
+            "is_complete": true
         },
         "sirius_details": {
-            "is_pk": "",
-            "fk_parents": "",
-            "data_type": "str",
-            "table_name": "visitor"
+            "is_pk": true,
+            "fk_parents": "warnings:id",
+            "data_type": "int",
+            "table_name": "person_warning"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -39,6 +42,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
         }
     }
 }

@@ -7,7 +7,7 @@
             "is_pk": true,
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "warnings"
+            "table_name": "addresses"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -20,15 +20,15 @@
             "additional_columns": ""
         }
     },
-    "added_by": {
+    "person_id": {
         "mapping_status": {
             "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
-            "fk_parents": "assignees:id",
+            "fk_parents": "persons:id",
             "data_type": "int",
-            "table_name": "warnings"
+            "table_name": "addresses"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -36,25 +36,52 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": 2.0,
+            "default_value": "",
             "calculated": "",
-            "additional_columns": ""
+            "additional_columns": "Case"
         }
     },
-    "closed_by": {
+    "address_lines": {
         "mapping_status": {
             "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
-            "fk_parents": "assignees:id",
-            "data_type": "int",
-            "table_name": "warnings"
+            "fk_parents": "",
+            "data_type": "dict",
+            "table_name": "addresses"
         },
         "transform_casrec": {
-            "casrec_table": "",
-            "casrec_column_name": "",
-            "alias": "",
+            "casrec_table": "DEPUTY_ADDRESS",
+            "casrec_column_name": [
+                "Dep Adrs1",
+                "Dep Adrs2"
+            ],
+            "alias": [
+                "Dep Adrs1",
+                "Dep Adrs2"
+            ],
+            "requires_transformation": "squash_columns",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "town": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "addresses"
+        },
+        "transform_casrec": {
+            "casrec_table": "DEPUTY_ADDRESS",
+            "casrec_column_name": "Dep Adrs3",
+            "alias": "Dep Adrs3",
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "",
@@ -62,83 +89,20 @@
             "additional_columns": ""
         }
     },
-    "warningtype": {
+    "county": {
         "mapping_status": {
-            "is_complete": false
+            "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "warnings"
+            "table_name": "addresses"
         },
         "transform_casrec": {
-            "casrec_table": "DEPUTY",
-            "casrec_column_name": "VWM",
-            "alias": "VWM",
-            "requires_transformation": "",
-            "lookup_table": "warning_violent_lookup",
-            "default_value": "",
-            "calculated": "",
-            "additional_columns": ""
-        }
-    },
-    "warningtext": {
-        "mapping_status": {
-            "is_complete": false
-        },
-        "sirius_details": {
-            "is_pk": "",
-            "fk_parents": "",
-            "data_type": "str",
-            "table_name": "warnings"
-        },
-        "transform_casrec": {
-            "casrec_table": "DEPUTY",
-            "casrec_column_name": "VWM",
-            "alias": "VWM 1",
-            "requires_transformation": "",
-            "lookup_table": "warning_violent_lookup",
-            "default_value": "",
-            "calculated": "",
-            "additional_columns": ""
-        }
-    },
-    "dateadded": {
-        "mapping_status": {
-            "is_complete": false
-        },
-        "sirius_details": {
-            "is_pk": "",
-            "fk_parents": "",
-            "data_type": "datetime",
-            "table_name": "warnings"
-        },
-        "transform_casrec": {
-            "casrec_table": "DEPUTY",
-            "casrec_column_name": "",
-            "alias": "",
-            "requires_transformation": "",
-            "lookup_table": "warning_violent_lookup",
-            "default_value": "",
-            "calculated": "current_date",
-            "additional_columns": ""
-        }
-    },
-    "dateclosed": {
-        "mapping_status": {
-            "is_complete": false
-        },
-        "sirius_details": {
-            "is_pk": "",
-            "fk_parents": "",
-            "data_type": "datetime",
-            "table_name": "warnings"
-        },
-        "transform_casrec": {
-            "casrec_table": "",
-            "casrec_column_name": "",
-            "alias": "",
+            "casrec_table": "DEPUTY_ADDRESS",
+            "casrec_column_name": "Dep Adrs4",
+            "alias": "Dep Adrs4",
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "",
@@ -146,23 +110,86 @@
             "additional_columns": ""
         }
     },
-    "systemstatus": {
+    "postcode": {
         "mapping_status": {
-            "is_complete": false
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "addresses"
+        },
+        "transform_casrec": {
+            "casrec_table": "DEPUTY_ADDRESS",
+            "casrec_column_name": "Dep Postcode",
+            "alias": "Dep Postcode",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "country": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "addresses"
+        },
+        "transform_casrec": {
+            "casrec_table": "DEPUTY_ADDRESS",
+            "casrec_column_name": "Dep Adrs5",
+            "alias": "Dep Adrs5",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "type": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "addresses"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "Primary",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "isairmailrequired": {
+        "mapping_status": {
+            "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
             "data_type": "bool",
-            "table_name": "warnings"
+            "table_name": "addresses"
         },
         "transform_casrec": {
-            "casrec_table": "",
-            "casrec_column_name": "",
-            "alias": "",
-            "requires_transformation": "",
+            "casrec_table": "DEPUTY_ADDRESS",
+            "casrec_column_name": "Foreign",
+            "alias": "Foreign",
+            "requires_transformation": "convert_to_bool",
             "lookup_table": "",
-            "default_value": 1.0,
+            "default_value": "",
             "calculated": "",
             "additional_columns": ""
         }

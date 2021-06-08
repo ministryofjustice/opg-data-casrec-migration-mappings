@@ -1,9 +1,0 @@
-{
-    "entity_name": "client",
-    "required_entities": "",
-    "destination_table_name": "phonenumbers",
-    "table_type": "data",
-    "source_table_name": "pat",
-    "casrec_conditions": "",
-    "source_table_additional_columns": "Case"
-}

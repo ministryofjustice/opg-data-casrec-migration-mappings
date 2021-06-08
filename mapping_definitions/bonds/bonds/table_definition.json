@@ -1,0 +1,13 @@
+{
+    "entity_name": "bonds",
+    "required_entities": "",
+    "destination_table_name": "bonds",
+    "table_type": "data",
+    "source_table_name": "order",
+    "casrec_conditions": {
+        "Bond No.": "not null"
+    },
+    "source_table_additional_columns": [
+        "CoP Case"
+    ]
+}

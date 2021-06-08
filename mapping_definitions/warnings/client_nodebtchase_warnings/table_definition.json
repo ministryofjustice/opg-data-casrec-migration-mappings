@@ -1,0 +1,13 @@
+{
+    "entity_name": "warnings",
+    "required_entities": "",
+    "destination_table_name": "warnings",
+    "table_type": "data",
+    "source_table_name": "pat",
+    "casrec_conditions": {
+        "Debt chase": "not null"
+    },
+    "source_table_additional_columns": [
+        "Case"
+    ]
+}

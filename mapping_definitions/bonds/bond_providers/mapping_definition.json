@@ -7,7 +7,7 @@
             "is_pk": true,
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "warnings"
+            "table_name": "bond_providers"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -20,49 +20,7 @@
             "additional_columns": ""
         }
     },
-    "added_by": {
-        "mapping_status": {
-            "is_complete": true
-        },
-        "sirius_details": {
-            "is_pk": "",
-            "fk_parents": "assignees:id",
-            "data_type": "int",
-            "table_name": "warnings"
-        },
-        "transform_casrec": {
-            "casrec_table": "",
-            "casrec_column_name": "",
-            "alias": "",
-            "requires_transformation": "",
-            "lookup_table": "",
-            "default_value": 2.0,
-            "calculated": "",
-            "additional_columns": ""
-        }
-    },
-    "closed_by": {
-        "mapping_status": {
-            "is_complete": true
-        },
-        "sirius_details": {
-            "is_pk": "",
-            "fk_parents": "assignees:id",
-            "data_type": "int",
-            "table_name": "warnings"
-        },
-        "transform_casrec": {
-            "casrec_table": "",
-            "casrec_column_name": "",
-            "alias": "",
-            "requires_transformation": "",
-            "lookup_table": "",
-            "default_value": "",
-            "calculated": "",
-            "additional_columns": ""
-        }
-    },
-    "warningtype": {
+    "name": {
         "mapping_status": {
             "is_complete": false
         },
@@ -70,20 +28,41 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "warnings"
+            "table_name": "bond_providers"
         },
         "transform_casrec": {
-            "casrec_table": "DEPUTY",
-            "casrec_column_name": "VWM",
-            "alias": "VWM",
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
             "requires_transformation": "",
-            "lookup_table": "warning_violent_lookup",
+            "lookup_table": "",
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
         }
     },
-    "warningtext": {
+    "oneoffvalue": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "Decimal",
+            "table_name": "bond_providers"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "telephonenumber": {
         "mapping_status": {
             "is_complete": false
         },
@@ -91,49 +70,7 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "warnings"
-        },
-        "transform_casrec": {
-            "casrec_table": "DEPUTY",
-            "casrec_column_name": "VWM",
-            "alias": "VWM 1",
-            "requires_transformation": "",
-            "lookup_table": "warning_violent_lookup",
-            "default_value": "",
-            "calculated": "",
-            "additional_columns": ""
-        }
-    },
-    "dateadded": {
-        "mapping_status": {
-            "is_complete": false
-        },
-        "sirius_details": {
-            "is_pk": "",
-            "fk_parents": "",
-            "data_type": "datetime",
-            "table_name": "warnings"
-        },
-        "transform_casrec": {
-            "casrec_table": "DEPUTY",
-            "casrec_column_name": "",
-            "alias": "",
-            "requires_transformation": "",
-            "lookup_table": "warning_violent_lookup",
-            "default_value": "",
-            "calculated": "current_date",
-            "additional_columns": ""
-        }
-    },
-    "dateclosed": {
-        "mapping_status": {
-            "is_complete": false
-        },
-        "sirius_details": {
-            "is_pk": "",
-            "fk_parents": "",
-            "data_type": "datetime",
-            "table_name": "warnings"
+            "table_name": "bond_providers"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -146,15 +83,15 @@
             "additional_columns": ""
         }
     },
-    "systemstatus": {
+    "emailaddress": {
         "mapping_status": {
             "is_complete": false
         },
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "bool",
-            "table_name": "warnings"
+            "data_type": "str",
+            "table_name": "bond_providers"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -162,7 +99,49 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": 1.0,
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "webaddress": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "bond_providers"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "uid": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "bond_providers"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
             "calculated": "",
             "additional_columns": ""
         }

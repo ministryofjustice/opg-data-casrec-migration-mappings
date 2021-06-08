@@ -7,7 +7,7 @@
             "is_pk": true,
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "warnings"
+            "table_name": "phonenumbers"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -18,17 +18,20 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
         }
     },
-    "added_by": {
+    "person_id": {
         "mapping_status": {
             "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
-            "fk_parents": "assignees:id",
+            "fk_parents": "persons:id",
             "data_type": "int",
-            "table_name": "warnings"
+            "table_name": "phonenumbers"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -36,20 +39,47 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": 2.0,
+            "default_value": "",
             "calculated": "",
-            "additional_columns": ""
+            "additional_columns": "Case"
+        },
+        "prepare": {
+            "sync": ""
         }
     },
-    "closed_by": {
+    "phone_number": {
         "mapping_status": {
             "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
-            "fk_parents": "assignees:id",
-            "data_type": "int",
-            "table_name": "warnings"
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "phonenumbers"
+        },
+        "transform_casrec": {
+            "casrec_table": "DEPUTY",
+            "casrec_column_name": "Contact Tele2",
+            "alias": "Contact Tele2",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "type": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "phonenumbers"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -57,104 +87,23 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": "",
+            "default_value": "Home",
             "calculated": "",
             "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
         }
     },
-    "warningtype": {
+    "is_default": {
         "mapping_status": {
-            "is_complete": false
-        },
-        "sirius_details": {
-            "is_pk": "",
-            "fk_parents": "",
-            "data_type": "str",
-            "table_name": "warnings"
-        },
-        "transform_casrec": {
-            "casrec_table": "DEPUTY",
-            "casrec_column_name": "VWM",
-            "alias": "VWM",
-            "requires_transformation": "",
-            "lookup_table": "warning_violent_lookup",
-            "default_value": "",
-            "calculated": "",
-            "additional_columns": ""
-        }
-    },
-    "warningtext": {
-        "mapping_status": {
-            "is_complete": false
-        },
-        "sirius_details": {
-            "is_pk": "",
-            "fk_parents": "",
-            "data_type": "str",
-            "table_name": "warnings"
-        },
-        "transform_casrec": {
-            "casrec_table": "DEPUTY",
-            "casrec_column_name": "VWM",
-            "alias": "VWM 1",
-            "requires_transformation": "",
-            "lookup_table": "warning_violent_lookup",
-            "default_value": "",
-            "calculated": "",
-            "additional_columns": ""
-        }
-    },
-    "dateadded": {
-        "mapping_status": {
-            "is_complete": false
-        },
-        "sirius_details": {
-            "is_pk": "",
-            "fk_parents": "",
-            "data_type": "datetime",
-            "table_name": "warnings"
-        },
-        "transform_casrec": {
-            "casrec_table": "DEPUTY",
-            "casrec_column_name": "",
-            "alias": "",
-            "requires_transformation": "",
-            "lookup_table": "warning_violent_lookup",
-            "default_value": "",
-            "calculated": "current_date",
-            "additional_columns": ""
-        }
-    },
-    "dateclosed": {
-        "mapping_status": {
-            "is_complete": false
-        },
-        "sirius_details": {
-            "is_pk": "",
-            "fk_parents": "",
-            "data_type": "datetime",
-            "table_name": "warnings"
-        },
-        "transform_casrec": {
-            "casrec_table": "",
-            "casrec_column_name": "",
-            "alias": "",
-            "requires_transformation": "",
-            "lookup_table": "",
-            "default_value": "",
-            "calculated": "",
-            "additional_columns": ""
-        }
-    },
-    "systemstatus": {
-        "mapping_status": {
-            "is_complete": false
+            "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
             "data_type": "bool",
-            "table_name": "warnings"
+            "table_name": "phonenumbers"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -162,9 +111,36 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": 1.0,
+            "default_value": false,
             "calculated": "",
             "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "updateddate": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "datetime",
+            "table_name": "phonenumbers"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "current_date",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
         }
     }
 }

@@ -7,8 +7,7 @@
             "is_pk": true,
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "visits",
-            "entity": "visits"
+            "table_name": "visits"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -29,8 +28,7 @@
             "is_pk": "",
             "fk_parents": "persons:id",
             "data_type": "int",
-            "table_name": "visits",
-            "entity": "visits"
+            "table_name": "visits"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -51,8 +49,7 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "visits",
-            "entity": "visits"
+            "table_name": "visits"
         },
         "transform_casrec": {
             "casrec_table": "REPVIS",
@@ -73,8 +70,7 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "datetime",
-            "table_name": "visits",
-            "entity": "visits"
+            "table_name": "visits"
         },
         "transform_casrec": {
             "casrec_table": "REPVIS",
@@ -95,8 +91,7 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "datetime",
-            "table_name": "visits",
-            "entity": "visits"
+            "table_name": "visits"
         },
         "transform_casrec": {
             "casrec_table": "REPVIS",
@@ -117,8 +112,7 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "visits",
-            "entity": "visits"
+            "table_name": "visits"
         },
         "transform_casrec": {
             "casrec_table": "REPVIS",
@@ -139,8 +133,7 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "datetime",
-            "table_name": "visits",
-            "entity": "visits"
+            "table_name": "visits"
         },
         "transform_casrec": {
             "casrec_table": "REPVIS",
@@ -161,8 +154,7 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "datetime",
-            "table_name": "visits",
-            "entity": "visits"
+            "table_name": "visits"
         },
         "transform_casrec": {
             "casrec_table": "REPVIS",
@@ -183,8 +175,7 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "visits",
-            "entity": "visits"
+            "table_name": "visits"
         },
         "transform_casrec": {
             "casrec_table": "REPVIS",
@@ -205,8 +196,7 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "datetime",
-            "table_name": "visits",
-            "entity": "visits"
+            "table_name": "visits"
         },
         "transform_casrec": {
             "casrec_table": "REPVIS",
@@ -227,8 +217,7 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "visits",
-            "entity": "visits"
+            "table_name": "visits"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -249,8 +238,7 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "visits",
-            "entity": "visits"
+            "table_name": "visits"
         },
         "transform_casrec": {
             "casrec_table": "REPVIS",
@@ -271,8 +259,7 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "datetime",
-            "table_name": "visits",
-            "entity": "visits"
+            "table_name": "visits"
         },
         "transform_casrec": {
             "casrec_table": "REPVIS",
@@ -293,8 +280,7 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "datetime",
-            "table_name": "visits",
-            "entity": "visits"
+            "table_name": "visits"
         },
         "transform_casrec": {
             "casrec_table": "REPVIS",
@@ -315,8 +301,7 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "datetime",
-            "table_name": "visits",
-            "entity": "visits"
+            "table_name": "visits"
         },
         "transform_casrec": {
             "casrec_table": "REPVIS",
@@ -337,8 +322,7 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "visits",
-            "entity": "visits"
+            "table_name": "visits"
         },
         "transform_casrec": {
             "casrec_table": "REPVIS",
@@ -359,8 +343,7 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "visits",
-            "entity": "visits"
+            "table_name": "visits"
         },
         "transform_casrec": {
             "casrec_table": "REPVIS",
@@ -381,8 +364,7 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "visits",
-            "entity": "visits"
+            "table_name": "visits"
         },
         "transform_casrec": {
             "casrec_table": "REPVIS",
