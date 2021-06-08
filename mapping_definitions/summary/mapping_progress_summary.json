@@ -1,5 +1,11 @@
 {
     "worksheets": {
+        "supervision_level_log": {
+            "total_rows": 7,
+            "total_unmapped": 3,
+            "total_mapped": 4,
+            "percentage_complete": 57
+        },
         "client_death_notifications": {
             "total_rows": 8,
             "total_unmapped": 1,
@@ -77,12 +83,6 @@
             "total_unmapped": 0,
             "total_mapped": 2,
             "percentage_complete": 100
-        },
-        "supervision_level_log": {
-            "total_rows": 7,
-            "total_unmapped": 3,
-            "total_mapped": 4,
-            "percentage_complete": 57
         },
         "visits": {
             "total_rows": 18,

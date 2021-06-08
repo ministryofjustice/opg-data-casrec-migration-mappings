@@ -6,6 +6,7 @@
     "source_table_name": "order",
     "casrec_conditions": "",
     "source_table_additional_columns": [
-        "Case"
+        "Case",
+        "Order No"
     ]
 }
