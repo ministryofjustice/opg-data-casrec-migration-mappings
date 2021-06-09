@@ -18,5 +18,8 @@
         "default_value",
         "calculated",
         "additional_columns"
+    ],
+    "integration": [
+        "business_rules"
     ]
 }

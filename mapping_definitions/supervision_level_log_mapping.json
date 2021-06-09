@@ -19,6 +19,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "order_id": {
@@ -41,6 +44,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "appliesfrom": {
@@ -63,6 +69,9 @@
             "default_value": "",
             "calculated": "current_date",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "createddate": {
@@ -85,6 +94,9 @@
             "default_value": "",
             "calculated": "current_date",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "supervisionlevel": {
@@ -107,6 +119,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "notes": {
@@ -129,6 +144,9 @@
             "default_value": "placeholder note",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "assetlevel": {
@@ -151,6 +169,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     }
 }

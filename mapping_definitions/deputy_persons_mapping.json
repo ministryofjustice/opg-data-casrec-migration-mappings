@@ -19,6 +19,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "email": {
@@ -41,6 +44,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "dateofdeath": {
@@ -63,6 +69,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": "Stat"
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "salutation": {
@@ -85,6 +94,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "firstname": {
@@ -107,6 +119,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "middlenames": {
@@ -129,6 +144,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "correspondencebypost": {
@@ -151,6 +169,9 @@
             "default_value": false,
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "correspondencebyphone": {
@@ -173,6 +194,9 @@
             "default_value": false,
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "correspondencebyemail": {
@@ -195,6 +219,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "uid": {
@@ -217,6 +244,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "type": {
@@ -239,6 +269,9 @@
             "default_value": "actor_deputy",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "systemstatus": {
@@ -261,6 +294,9 @@
             "default_value": true,
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "isreplacementattorney": {
@@ -283,6 +319,9 @@
             "default_value": false,
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "istrustcorporation": {
@@ -305,6 +344,9 @@
             "default_value": false,
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "previousnames": {
@@ -327,6 +369,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "correspondencebywelsh": {
@@ -349,6 +394,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "newsletter": {
@@ -371,6 +419,9 @@
             "default_value": false,
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "specialcorrespondencerequirements_audiotape": {
@@ -393,6 +444,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "specialcorrespondencerequirements_largeprint": {
@@ -415,6 +469,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "specialcorrespondencerequirements_hearingimpaired": {
@@ -437,6 +494,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "specialcorrespondencerequirements_spellingofnamerequirescare": {
@@ -459,6 +519,9 @@
             "default_value": false,
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "isorganisation": {
@@ -481,6 +544,9 @@
             "default_value": false,
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "deputytype": {
@@ -503,6 +569,9 @@
             "default_value": "LAY",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "supervisioncaseowner_id": {
@@ -525,6 +594,9 @@
             "default_value": 10,
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "clientsource": {
@@ -547,6 +619,9 @@
             "default_value": "CASRECMIGRATION",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "updateddate": {
@@ -569,6 +644,9 @@
             "default_value": "",
             "calculated": "current_date",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     }
 }

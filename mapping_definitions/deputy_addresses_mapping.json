@@ -19,6 +19,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "person_id": {
@@ -41,6 +44,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": "Case"
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "address_lines": {
@@ -69,6 +75,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "town": {
@@ -91,6 +100,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "county": {
@@ -113,6 +125,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "postcode": {
@@ -135,6 +150,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "country": {
@@ -157,6 +175,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "type": {
@@ -179,6 +200,9 @@
             "default_value": "Primary",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     },
     "isairmailrequired": {
@@ -201,6 +225,9 @@
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
+        },
+        "integration": {
+            "business_rules": ""
         }
     }
 }

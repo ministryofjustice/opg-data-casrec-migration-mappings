@@ -1,29 +1,5 @@
 {
     "worksheets": {
-        "bonds": {
-            "total_rows": 8,
-            "total_unmapped": 0,
-            "total_mapped": 8,
-            "percentage_complete": 100
-        },
-        "bond_providers": {
-            "total_rows": 7,
-            "total_unmapped": 6,
-            "total_mapped": 1,
-            "percentage_complete": 14
-        },
-        "client_persons": {
-            "total_rows": 34,
-            "total_unmapped": 4,
-            "total_mapped": 30,
-            "percentage_complete": 88
-        },
-        "client_phonenumbers": {
-            "total_rows": 6,
-            "total_unmapped": 0,
-            "total_mapped": 6,
-            "percentage_complete": 100
-        },
         "client_death_notifications": {
             "total_rows": 8,
             "total_unmapped": 1,
@@ -35,72 +11,6 @@
             "total_unmapped": 0,
             "total_mapped": 9,
             "percentage_complete": 100
-        },
-        "deputy_persons": {
-            "total_rows": 26,
-            "total_unmapped": 0,
-            "total_mapped": 26,
-            "percentage_complete": 100
-        },
-        "order_deputy": {
-            "total_rows": 8,
-            "total_unmapped": 5,
-            "total_mapped": 3,
-            "percentage_complete": 38
-        },
-        "deputy_addresses": {
-            "total_rows": 9,
-            "total_unmapped": 0,
-            "total_mapped": 9,
-            "percentage_complete": 100
-        },
-        "deputy_daytime_phonenumbers": {
-            "total_rows": 6,
-            "total_unmapped": 0,
-            "total_mapped": 6,
-            "percentage_complete": 100
-        },
-        "deputy_evening_phonenumbers": {
-            "total_rows": 6,
-            "total_unmapped": 0,
-            "total_mapped": 6,
-            "percentage_complete": 100
-        },
-        "cases": {
-            "total_rows": 58,
-            "total_unmapped": 4,
-            "total_mapped": 54,
-            "percentage_complete": 93
-        },
-        "person_caseitem": {
-            "total_rows": 2,
-            "total_unmapped": 0,
-            "total_mapped": 2,
-            "percentage_complete": 100
-        },
-        "notes": {
-            "total_rows": 12,
-            "total_unmapped": 8,
-            "total_mapped": 4,
-            "percentage_complete": 33
-        },
-        "supervision_level_log": {
-            "total_rows": 7,
-            "total_unmapped": 3,
-            "total_mapped": 4,
-            "percentage_complete": 57
-        },
-        "visits": {
-            "total_rows": 18,
-            "total_unmapped": 9,
-            "total_mapped": 9,
-            "percentage_complete": 50
-        },
-        "visitor": {
-            "total_rows": 2,
-            "total_unmapped": 1,
-            "total_mapped": 1,
-            "percentage_complete": 50
         },
         "client_violent_warnings": {
             "total_rows": 8,
@@ -143,12 +53,102 @@
             "total_unmapped": 0,
             "total_mapped": 2,
             "percentage_complete": 100
+        },
+        "bonds": {
+            "total_rows": 8,
+            "total_unmapped": 0,
+            "total_mapped": 8,
+            "percentage_complete": 100
+        },
+        "bond_providers": {
+            "total_rows": 7,
+            "total_unmapped": 6,
+            "total_mapped": 1,
+            "percentage_complete": 14
+        },
+        "cases": {
+            "total_rows": 58,
+            "total_unmapped": 4,
+            "total_mapped": 54,
+            "percentage_complete": 93
+        },
+        "person_caseitem": {
+            "total_rows": 2,
+            "total_unmapped": 0,
+            "total_mapped": 2,
+            "percentage_complete": 100
+        },
+        "supervision_level_log": {
+            "total_rows": 7,
+            "total_unmapped": 3,
+            "total_mapped": 4,
+            "percentage_complete": 57
+        },
+        "visits": {
+            "total_rows": 18,
+            "total_unmapped": 9,
+            "total_mapped": 9,
+            "percentage_complete": 50
+        },
+        "visitor": {
+            "total_rows": 2,
+            "total_unmapped": 1,
+            "total_mapped": 1,
+            "percentage_complete": 50
+        },
+        "client_persons": {
+            "total_rows": 34,
+            "total_unmapped": 4,
+            "total_mapped": 30,
+            "percentage_complete": 88
+        },
+        "client_phonenumbers": {
+            "total_rows": 6,
+            "total_unmapped": 0,
+            "total_mapped": 6,
+            "percentage_complete": 100
+        },
+        "notes": {
+            "total_rows": 12,
+            "total_unmapped": 8,
+            "total_mapped": 4,
+            "percentage_complete": 33
+        },
+        "deputy_persons": {
+            "total_rows": 26,
+            "total_unmapped": 0,
+            "total_mapped": 26,
+            "percentage_complete": 100
+        },
+        "order_deputy": {
+            "total_rows": 8,
+            "total_unmapped": 5,
+            "total_mapped": 3,
+            "percentage_complete": 38
+        },
+        "deputy_addresses": {
+            "total_rows": 9,
+            "total_unmapped": 0,
+            "total_mapped": 9,
+            "percentage_complete": 100
+        },
+        "deputy_daytime_phonenumbers": {
+            "total_rows": 6,
+            "total_unmapped": 0,
+            "total_mapped": 6,
+            "percentage_complete": 100
+        },
+        "deputy_evening_phonenumbers": {
+            "total_rows": 6,
+            "total_unmapped": 0,
+            "total_mapped": 6,
+            "percentage_complete": 100
         }
     },
     "total": {
         "worksheets": {
             "total_sheets": 24,
-            "total_complete": 1
+            "total_complete": 3
         },
         "fields": {
             "total_fields": 276,
