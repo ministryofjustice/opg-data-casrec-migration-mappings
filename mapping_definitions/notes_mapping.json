@@ -20,8 +20,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "sourceid": {
@@ -45,8 +45,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "sourcetable": {
@@ -70,8 +70,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "type": {
@@ -95,8 +95,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "status": {
@@ -120,8 +120,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "description": {
@@ -145,8 +145,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "name": {
@@ -170,8 +170,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "createdtime": {
@@ -195,8 +195,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "createdbyuser_id": {
@@ -220,8 +220,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "upload_id": {
@@ -245,8 +245,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "document_id": {
@@ -270,8 +270,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "direction": {
@@ -295,8 +295,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     }
 }

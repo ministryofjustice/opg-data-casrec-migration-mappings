@@ -20,8 +20,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "order_id": {
@@ -45,8 +45,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "bondreferencenumber": {
@@ -70,8 +70,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "requiredbondamount": {
@@ -95,8 +95,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "bondamounttaken": {
@@ -120,8 +120,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "renewaldateofbond": {
@@ -145,8 +145,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "dischargedate": {
@@ -170,8 +170,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "bond_provider_id": {
@@ -195,11 +195,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": [
-                "reindex_lookup_bond_providers",
-                "convert_to_int"
-            ]
+        "prepare": {
+            "sync": "sync_lookup"
         }
     }
 }

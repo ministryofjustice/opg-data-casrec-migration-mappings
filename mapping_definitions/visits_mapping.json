@@ -20,8 +20,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "client_id": {
@@ -45,8 +45,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "visittype": {
@@ -70,8 +70,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "visitcreateddate": {
@@ -95,8 +95,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "visitreportduedate": {
@@ -120,8 +120,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "visitoutcome": {
@@ -145,8 +145,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "visitcompleteddate": {
@@ -170,8 +170,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "visitreportreceiveddate": {
@@ -195,8 +195,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "visitreportmarkedas": {
@@ -220,8 +220,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "visitreportrevieweddate": {
@@ -245,8 +245,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "visitvisitorallocated": {
@@ -270,8 +270,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "visitcancellationreason": {
@@ -295,8 +295,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "visitcommissiondate": {
@@ -320,8 +320,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "firstextendedvisitreportduedate": {
@@ -345,8 +345,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "secondextendedvisitreportduedate": {
@@ -370,8 +370,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "visitsubtype": {
@@ -395,8 +395,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "visiturgency": {
@@ -420,8 +420,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "whotovisit": {
@@ -445,8 +445,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     }
 }

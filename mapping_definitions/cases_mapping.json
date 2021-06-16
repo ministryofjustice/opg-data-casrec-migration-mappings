@@ -20,8 +20,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "assignee_id": {
@@ -45,8 +45,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "donor_id": {
@@ -70,8 +70,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "correspondent_id": {
@@ -95,8 +95,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "client_id": {
@@ -120,8 +120,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "applicationtype": {
@@ -145,8 +145,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "casetype": {
@@ -170,8 +170,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "casesubtype": {
@@ -195,8 +195,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "caseattorneysingular": {
@@ -220,8 +220,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "caseattorneyjointlyandseverally": {
@@ -245,8 +245,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "caseattorneyjointly": {
@@ -270,8 +270,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "caseattorneyjointlyandjointlyandseverally": {
@@ -295,8 +295,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "caseattorneyactionadditionalinfo": {
@@ -320,8 +320,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "repeatapplication": {
@@ -345,8 +345,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "uid": {
@@ -370,8 +370,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "type": {
@@ -395,8 +395,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "ascertained_by": {
@@ -420,8 +420,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "donorsignaturewitnessed": {
@@ -445,8 +445,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "donorhaspreviouslpas": {
@@ -470,8 +470,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "createddate": {
@@ -495,8 +495,8 @@
             "calculated": "current_date",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "trustcorporationsignedas": {
@@ -520,8 +520,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "hasrelativetonotice": {
@@ -545,8 +545,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "areallattorneysapplyingtoregister": {
@@ -570,8 +570,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "donorhasotherepas": {
@@ -595,8 +595,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "usesnotifiedpersons": {
@@ -620,8 +620,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "nonoticegiven": {
@@ -645,8 +645,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "notifiedpersonpermissionby": {
@@ -670,8 +670,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "paymentbydebitcreditcard": {
@@ -695,8 +695,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "paymentbycheque": {
@@ -720,8 +720,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "wouldliketoapplyforfeeremission": {
@@ -745,8 +745,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "haveappliedforfeeremission": {
@@ -770,8 +770,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "anyotherinfo": {
@@ -795,8 +795,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "additionalinfodonorsignature": {
@@ -820,8 +820,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "paymentremission": {
@@ -845,8 +845,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "paymentexemption": {
@@ -870,8 +870,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "attorneypartydeclaration": {
@@ -895,8 +895,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "attorneyapplicationassertion": {
@@ -920,8 +920,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "attorneymentalactpermission": {
@@ -945,8 +945,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "attorneydeclarationsignaturewitness": {
@@ -970,8 +970,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "correspondentcomplianceassertion": {
@@ -995,8 +995,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "applicantsdeclaration": {
@@ -1020,8 +1020,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "applicationhasrestrictions": {
@@ -1045,8 +1045,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "applicationhasguidance": {
@@ -1070,8 +1070,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "applicationhascharges": {
@@ -1095,8 +1095,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "orderdate": {
@@ -1120,8 +1120,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "orderissuedate": {
@@ -1145,8 +1145,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "securitybond": {
@@ -1170,8 +1170,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "orderstatus": {
@@ -1195,8 +1195,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "statusdate": {
@@ -1220,8 +1220,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "caserecnumber": {
@@ -1245,8 +1245,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "feepayer_id": {
@@ -1270,8 +1270,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "receiptdate": {
@@ -1295,8 +1295,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "orderexpirydate": {
@@ -1320,8 +1320,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "orderclosurereason": {
@@ -1345,8 +1345,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "ordersubtype": {
@@ -1370,8 +1370,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "updateddate": {
@@ -1395,8 +1395,8 @@
             "calculated": "current_date",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "clauseexpirydate": {
@@ -1420,8 +1420,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "madeactivedate": {
@@ -1445,8 +1445,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     }
 }

@@ -20,8 +20,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "deputy_id": {
@@ -45,8 +45,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "id": {
@@ -70,8 +70,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "deputytype": {
@@ -95,8 +95,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "statusoncase": {
@@ -120,8 +120,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "relationshiptoclient": {
@@ -145,8 +145,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "statusoncaseoverride": {
@@ -170,8 +170,8 @@
             "calculated": "",
             "additional_columns": ""
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     },
     "statuschangedate": {
@@ -195,8 +195,8 @@
             "calculated": "",
             "additional_columns": "Stat"
         },
-        "integration": {
-            "business_rules": ""
+        "prepare": {
+            "sync": ""
         }
     }
 }
