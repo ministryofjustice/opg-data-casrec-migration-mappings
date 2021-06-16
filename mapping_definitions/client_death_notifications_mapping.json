@@ -186,7 +186,7 @@
             "entity": "death_notification"
         },
         "transform_casrec": {
-            "casrec_table": "PAT",
+            "casrec_table": "",
             "casrec_column_name": "",
             "alias": "",
             "requires_transformation": "",
