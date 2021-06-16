@@ -19,7 +19,7 @@
         "calculated",
         "additional_columns"
     ],
-    "integration": [
-        "business_rules"
+    "prepare": [
+        "sync"
     ]
 }

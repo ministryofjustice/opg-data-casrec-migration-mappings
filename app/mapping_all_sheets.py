@@ -49,7 +49,7 @@ class Mapping:
             "fk_parents",
             "is_complete",
             "entity",
-            "business_rules"
+            "sync"
         ]
         self.columns = columns if len(columns) > 0 else self.default_columns
         self.summary = {}
@@ -216,7 +216,7 @@ class Mapping:
         Easier to do it once it's a dict than in the dataframe, as the numpy concept of
         'list' doesn't map easily using 'to_dict'!
         """
-        multi_fields = [self.source_column_name, "alias", "additional_columns", "business_rules"]
+        multi_fields = [self.source_column_name, "alias", "additional_columns", "sync"]
 
         for col, details in mapping_dict.items():
             for field in multi_fields:
