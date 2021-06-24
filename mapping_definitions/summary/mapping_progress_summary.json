@@ -12,6 +12,12 @@
             "total_mapped": 9,
             "percentage_complete": 100
         },
+        "crec_persons": {
+            "total_rows": 81,
+            "total_unmapped": 78,
+            "total_mapped": 3,
+            "percentage_complete": 4
+        },
         "client_violent_warnings": {
             "total_rows": 8,
             "total_unmapped": 5,
@@ -147,14 +153,14 @@
     },
     "total": {
         "worksheets": {
-            "total_sheets": 26,
+            "total_sheets": 27,
             "total_complete": 3
         },
         "fields": {
-            "total_fields": 296,
-            "total_unmapped": 81,
-            "total_mapped": 215,
-            "percentage_complete": 73
+            "total_fields": 377,
+            "total_unmapped": 159,
+            "total_mapped": 218,
+            "percentage_complete": 58
         }
     }
 }
