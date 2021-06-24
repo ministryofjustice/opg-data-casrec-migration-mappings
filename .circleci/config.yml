@@ -40,7 +40,7 @@ jobs:
       - run:
           name: recreate json files and submit new version
           command: |
-            python3 app/app.py --ci_stage << parameters.ci_stage >> --role sirius-ci
+            python3 app/app.py --ci_stage << parameters.ci_stage >> --role integrations-ci
       - run:
           name: show progress
           command: cat mapping_definitions/summary/mapping_progress_summary.json

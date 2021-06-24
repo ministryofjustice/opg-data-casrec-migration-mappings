@@ -4,7 +4,7 @@ terraform {
     key            = "opg-data-casrec-migration-mappings/terraform.tfstate"
     encrypt        = true
     region         = "eu-west-1"
-    role_arn       = "arn:aws:iam::311462405659:role/sirius-ci"
+    role_arn       = "arn:aws:iam::311462405659:role/integrations-ci"
     dynamodb_table = "remote_lock"
   }
 }

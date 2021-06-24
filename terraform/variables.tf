@@ -1,5 +1,5 @@
 variable "default_role" {
-  default = "sirius-ci"
+  default = "integrations-ci"
 }
 
 locals {
