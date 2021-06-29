@@ -1,0 +1,127 @@
+{
+    "id": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": true,
+            "fk_parents": "",
+            "data_type": "int",
+            "table_name": "annual_report_type_assignments",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "reporttype": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "annual_report_type_assignments",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "reporttypeoverride": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "annual_report_type_assignments",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "type": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "annual_report_type_assignments",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "annualreport_id": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "annual_report_logs:id",
+            "data_type": "int",
+            "table_name": "annual_report_type_assignments",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    }
+}

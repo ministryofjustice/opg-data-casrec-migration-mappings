@@ -1,0 +1,277 @@
+{
+    "id": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": true,
+            "fk_parents": "",
+            "data_type": "int",
+            "table_name": "annual_report_lodging_details",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "annual_report_log_id": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "annual_report_logs:id",
+            "data_type": "int",
+            "table_name": "annual_report_lodging_details",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "digidepsreport": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "bool",
+            "table_name": "annual_report_lodging_details",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "deadlinedate": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "date",
+            "table_name": "annual_report_lodging_details",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "ACCOUNT",
+            "casrec_column_name": "Followup Date",
+            "alias": "Followup Date",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "reasonfordetermination": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "annual_report_lodging_details",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "datereportlodged": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "date",
+            "table_name": "annual_report_lodging_details",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "ACCOUNT",
+            "casrec_column_name": "Lodge Date",
+            "alias": "Lodge Date",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "lodgedstatus": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "annual_report_lodging_details",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "ACCOUNT",
+            "casrec_column_name": "Further Code",
+            "alias": "Further Code",
+            "requires_transformation": "",
+            "lookup_table": "furthered_lookup",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "bankstatementsreceived": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "bool",
+            "table_name": "annual_report_lodging_details",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "resubmitteddate": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "date",
+            "table_name": "annual_report_lodging_details",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "bankstatementdeadlinedate": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "date",
+            "table_name": "annual_report_lodging_details",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "ACCOUNT",
+            "casrec_column_name": "Sent1",
+            "alias": "Sent1",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "lodgedby_id": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "assignees:id",
+            "data_type": "int",
+            "table_name": "annual_report_lodging_details",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    }
+}

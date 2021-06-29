@@ -1,0 +1,527 @@
+{
+    "id": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": true,
+            "fk_parents": "",
+            "data_type": "int",
+            "table_name": "annual_report_logs",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "duedate": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "date",
+            "table_name": "annual_report_logs",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "Account",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "calculate_duedate",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "reportingperiodenddate": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "date",
+            "table_name": "annual_report_logs",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "Account",
+            "casrec_column_name": "End Date",
+            "alias": "End Date",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "revisedduedate": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "date",
+            "table_name": "annual_report_logs",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "Account",
+            "casrec_column_name": "Revise Date",
+            "alias": "Revise Date",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "numberofchaseletters": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "int",
+            "table_name": "annual_report_logs",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "lodgingchecklistdocument_id": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "documents:id",
+            "data_type": "int",
+            "table_name": "annual_report_logs",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "reportduereminderdate": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "date",
+            "table_name": "annual_report_logs",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "Account",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "calculate_reminderdate",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "reportingperiodstartdate": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "date",
+            "table_name": "annual_report_logs",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "Account",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "calculate_startdate",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "client_id": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "persons:id",
+            "data_type": "int",
+            "table_name": "annual_report_logs",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "status": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "annual_report_logs",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "receiveddate": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "date",
+            "table_name": "annual_report_logs",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "Account",
+            "casrec_column_name": "Rcvd Date",
+            "alias": "Rcvd Date",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "abandoneddate": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "date",
+            "table_name": "annual_report_logs",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "reasonforabandonment": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "annual_report_logs",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "casesupervisionlevel": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "annual_report_logs",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "reviewstatus": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "annual_report_logs",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "Account",
+            "casrec_column_name": "Rev Stat",
+            "alias": "Rev Stat",
+            "requires_transformation": "",
+            "lookup_table": "revstatus_lookup",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "reasonforreviewstatuschange": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "annual_report_logs",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "reviewdecision": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "annual_report_logs",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "reasonforfinaldecision": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "annual_report_logs",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "reviewdate": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "date",
+            "table_name": "annual_report_logs",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "Account",
+            "casrec_column_name": "Review Date",
+            "alias": "Review Date",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "order_id": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "cases:id",
+            "data_type": "int",
+            "table_name": "annual_report_logs",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "reviewedby_id": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "assignees:id",
+            "data_type": "int",
+            "table_name": "annual_report_logs",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    }
+}
