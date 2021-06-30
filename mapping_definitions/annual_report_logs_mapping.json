@@ -251,7 +251,7 @@
     },
     "receiveddate": {
         "mapping_status": {
-            "is_complete": false
+            "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
@@ -262,9 +262,23 @@
         },
         "transform_casrec": {
             "casrec_table": "Account",
-            "casrec_column_name": "Rcvd Date",
-            "alias": "Rcvd Date",
-            "requires_transformation": "",
+            "casrec_column_name": [
+                "Rcvd Date1",
+                "Rcvd Date2",
+                "Rcvd Date3",
+                "Rcvd Date4",
+                "Rcvd Date5",
+                "Rcvd Date6"
+            ],
+            "alias": [
+                "Rcvd Date1",
+                "Rcvd Date2",
+                "Rcvd Date3",
+                "Rcvd Date4",
+                "Rcvd Date5",
+                "Rcvd Date6"
+            ],
+            "requires_transformation": "get_max_col",
             "lookup_table": "",
             "default_value": "",
             "calculated": "",
