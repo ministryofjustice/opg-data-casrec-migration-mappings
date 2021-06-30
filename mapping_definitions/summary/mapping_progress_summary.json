@@ -19,40 +19,40 @@
             "percentage_complete": 100
         },
         "client_violent_warnings": {
-            "total_rows": 7,
+            "total_rows": 6,
             "total_unmapped": 4,
-            "total_mapped": 3,
-            "percentage_complete": 43
+            "total_mapped": 2,
+            "percentage_complete": 33
         },
         "deputy_violent_warnings": {
-            "total_rows": 7,
+            "total_rows": 6,
             "total_unmapped": 4,
-            "total_mapped": 3,
-            "percentage_complete": 43
+            "total_mapped": 2,
+            "percentage_complete": 33
         },
         "client_special_warnings": {
-            "total_rows": 7,
+            "total_rows": 6,
             "total_unmapped": 4,
-            "total_mapped": 3,
-            "percentage_complete": 43
+            "total_mapped": 2,
+            "percentage_complete": 33
         },
         "deputy_special_warnings": {
-            "total_rows": 7,
+            "total_rows": 6,
             "total_unmapped": 4,
-            "total_mapped": 3,
-            "percentage_complete": 43
+            "total_mapped": 2,
+            "percentage_complete": 33
         },
         "client_saarcheck_warnings": {
-            "total_rows": 7,
+            "total_rows": 6,
             "total_unmapped": 4,
-            "total_mapped": 3,
-            "percentage_complete": 43
+            "total_mapped": 2,
+            "percentage_complete": 33
         },
         "client_nodebtchase_warnings": {
-            "total_rows": 7,
+            "total_rows": 6,
             "total_unmapped": 4,
-            "total_mapped": 3,
-            "percentage_complete": 43
+            "total_mapped": 2,
+            "percentage_complete": 33
         },
         "person_warning": {
             "total_rows": 2,
@@ -159,14 +159,14 @@
     },
     "total": {
         "worksheets": {
-            "total_sheets": 26,
+            "total_sheets": 31,
             "total_complete": 3
         },
         "fields": {
-            "total_fields": 282,
-            "total_unmapped": 62,
-            "total_mapped": 220,
-            "percentage_complete": 78
+            "total_fields": 332,
+            "total_unmapped": 67,
+            "total_mapped": 265,
+            "percentage_complete": 80
         }
     }
 }

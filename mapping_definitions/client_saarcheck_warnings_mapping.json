@@ -49,31 +49,6 @@
             "sync": ""
         }
     },
-    "closed_by": {
-        "mapping_status": {
-            "is_complete": true
-        },
-        "sirius_details": {
-            "is_pk": "",
-            "fk_parents": "assignees:id",
-            "data_type": "int",
-            "table_name": "warnings",
-            "entity": "warnings"
-        },
-        "transform_casrec": {
-            "casrec_table": "",
-            "casrec_column_name": "",
-            "alias": "",
-            "requires_transformation": "",
-            "lookup_table": "",
-            "default_value": "",
-            "calculated": "",
-            "additional_columns": ""
-        },
-        "prepare": {
-            "sync": ""
-        }
-    },
     "warningtype": {
         "mapping_status": {
             "is_complete": false
