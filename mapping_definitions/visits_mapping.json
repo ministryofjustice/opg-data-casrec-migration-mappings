@@ -212,8 +212,8 @@
         },
         "transform_casrec": {
             "casrec_table": "REPVIS",
-            "casrec_column_name": "Category",
-            "alias": "Category",
+            "casrec_column_name": "Categ",
+            "alias": "Categ",
             "requires_transformation": "",
             "lookup_table": "visit_marked_lookup",
             "default_value": "",
