@@ -42,7 +42,7 @@
             "requires_transformation": "calculate_duedate",
             "lookup_table": "",
             "default_value": "",
-            "calculated": "",
+            "calculated": "current_date",
             "additional_columns": ""
         },
         "prepare": {
@@ -67,7 +67,7 @@
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "",
-            "calculated": "",
+            "calculated": "current_date",
             "additional_columns": ""
         },
         "prepare": {
@@ -116,7 +116,7 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": "",
+            "default_value": 0.0,
             "calculated": "",
             "additional_columns": ""
         },
@@ -192,7 +192,7 @@
             "requires_transformation": "calculate_startdate",
             "lookup_table": "",
             "default_value": "",
-            "calculated": "",
+            "calculated": "current_date",
             "additional_columns": ""
         },
         "prepare": {
