@@ -159,14 +159,14 @@
     },
     "total": {
         "worksheets": {
-            "total_sheets": 28,
+            "total_sheets": 26,
             "total_complete": 3
         },
         "fields": {
-            "total_fields": 296,
-            "total_unmapped": 72,
-            "total_mapped": 224,
-            "percentage_complete": 76
+            "total_fields": 276,
+            "total_unmapped": 62,
+            "total_mapped": 214,
+            "percentage_complete": 78
         }
     }
 }
