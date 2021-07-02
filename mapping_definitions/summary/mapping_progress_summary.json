@@ -1,5 +1,23 @@
 {
     "worksheets": {
+        "annual_report_logs": {
+            "total_rows": 21,
+            "total_unmapped": 15,
+            "total_mapped": 6,
+            "percentage_complete": 29
+        },
+        "annual_report_lodging_details": {
+            "total_rows": 11,
+            "total_unmapped": 8,
+            "total_mapped": 3,
+            "percentage_complete": 27
+        },
+        "annual_report_type_assignments": {
+            "total_rows": 5,
+            "total_unmapped": 3,
+            "total_mapped": 2,
+            "percentage_complete": 40
+        },
         "client_death_notifications": {
             "total_rows": 7,
             "total_unmapped": 0,
@@ -159,14 +177,14 @@
     },
     "total": {
         "worksheets": {
-            "total_sheets": 26,
+            "total_sheets": 29,
             "total_complete": 3
         },
         "fields": {
-            "total_fields": 276,
-            "total_unmapped": 62,
-            "total_mapped": 214,
-            "percentage_complete": 78
+            "total_fields": 313,
+            "total_unmapped": 88,
+            "total_mapped": 225,
+            "percentage_complete": 72
         }
     }
 }
