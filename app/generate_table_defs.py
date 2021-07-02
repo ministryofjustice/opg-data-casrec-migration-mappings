@@ -7,12 +7,13 @@ def create_table_def_json(df, name, destination):
     print(f"name: {name}")
 
     df = df.replace(np.nan, "")
+    df = df.rename(columns={'casrec_conditions': 'source_conditions'})
     df = df.set_index("mapping_file_name")
     table_def_dict = df.to_dict("index")
 
 
     convert_col_to_list(column_names=['source_table_additional_columns'], definition_dict=table_def_dict)
-    convert_col_to_dict(column_names=['casrec_conditions'], definition_dict=table_def_dict)
+    convert_col_to_dict(column_names=['source_conditions'], definition_dict=table_def_dict)
 
     path = f"./{destination}"
 
@@ -23,7 +24,6 @@ def create_table_def_json(df, name, destination):
         with open(f"{path}/table_definitions.json", "r") as json_out:
             data = json_out.read()
             existing_table_defs = json.loads(data)
-            print(f"tables_out: {existing_table_defs}")
     except:
         existing_table_defs = {}
 

@@ -5,7 +5,7 @@
         "destination_table_name": "annual_report_logs",
         "table_type": "data",
         "source_table_name": "account",
-        "casrec_conditions": "",
+        "source_conditions": "",
         "source_table_additional_columns": [
             "Case"
         ],
@@ -17,23 +17,24 @@
         "destination_table_name": "annual_report_lodging_details",
         "table_type": "data",
         "source_table_name": "account",
-        "casrec_conditions": "",
+        "source_conditions": "",
         "source_table_additional_columns": [
             ""
         ],
         "Unnamed: 8": ""
     },
-    "client_death_notfications": {
+    "client_death_notifications": {
         "entity_name": "death",
         "required_entities": "",
         "destination_table_name": "death_notifications",
         "table_type": "data",
         "source_table_name": "pat",
-        "casrec_conditions": {
+        "source_conditions": {
             "Term Type": "D"
         },
         "source_table_additional_columns": [
-            "Term Type\nCase"
+            "Term Type",
+            "Case"
         ]
     },
     "deputy_death_notifications": {
@@ -42,11 +43,12 @@
         "destination_table_name": "death_notifications",
         "table_type": "data",
         "source_table_name": "deputy",
-        "casrec_conditions": {
+        "source_conditions": {
             "Stat": "99"
         },
         "source_table_additional_columns": [
-            "Stat\nDeputy No"
+            "Stat",
+            "Deputy No"
         ]
     },
     "crec_persons": {
@@ -55,7 +57,7 @@
         "destination_table_name": "persons",
         "table_type": "data",
         "source_table_name": "crec",
-        "casrec_conditions": "",
+        "source_conditions": "",
         "source_table_additional_columns": [
             ""
         ]
@@ -66,7 +68,7 @@
         "destination_table_name": "warnings",
         "table_type": "data",
         "source_table_name": "pat",
-        "casrec_conditions": {
+        "source_conditions": {
             "Debt chase": "not null"
         },
         "source_table_additional_columns": [
@@ -79,7 +81,7 @@
         "destination_table_name": "warnings",
         "table_type": "data",
         "source_table_name": "pat",
-        "casrec_conditions": {
+        "source_conditions": {
             "SAAR Check": "not null"
         },
         "source_table_additional_columns": [
@@ -92,7 +94,7 @@
         "destination_table_name": "warnings",
         "table_type": "data",
         "source_table_name": "pat",
-        "casrec_conditions": {
+        "source_conditions": {
             "SIM": "not null"
         },
         "source_table_additional_columns": [
@@ -105,7 +107,7 @@
         "destination_table_name": "warnings",
         "table_type": "data",
         "source_table_name": "pat",
-        "casrec_conditions": {
+        "source_conditions": {
             "VWM": "not null"
         },
         "source_table_additional_columns": [
@@ -118,7 +120,7 @@
         "destination_table_name": "warnings",
         "table_type": "join",
         "source_table_name": "",
-        "casrec_conditions": "",
+        "source_conditions": "",
         "source_table_additional_columns": [
             ""
         ]
@@ -129,7 +131,7 @@
         "destination_table_name": "warnings",
         "table_type": "data",
         "source_table_name": "deputy",
-        "casrec_conditions": {
+        "source_conditions": {
             "SIM": "not null"
         },
         "source_table_additional_columns": [
@@ -142,7 +144,7 @@
         "destination_table_name": "warnings",
         "table_type": "data",
         "source_table_name": "deputy",
-        "casrec_conditions": {
+        "source_conditions": {
             "VWM": "not null"
         },
         "source_table_additional_columns": [
@@ -155,7 +157,7 @@
         "destination_table_name": "warnings",
         "table_type": "join",
         "source_table_name": "",
-        "casrec_conditions": "",
+        "source_conditions": "",
         "source_table_additional_columns": [
             ""
         ]
@@ -166,7 +168,7 @@
         "destination_table_name": "bonds",
         "table_type": "data",
         "source_table_name": "order",
-        "casrec_conditions": {
+        "source_conditions": {
             "Bond No.": "not null"
         },
         "source_table_additional_columns": [
@@ -180,7 +182,7 @@
         "destination_table_name": "cases",
         "table_type": "data",
         "source_table_name": "order",
-        "casrec_conditions": "",
+        "source_conditions": "",
         "source_table_additional_columns": [
             "Order No",
             "CoP Case",
@@ -193,7 +195,7 @@
         "destination_table_name": "person_caseitem",
         "table_type": "join",
         "source_table_name": "",
-        "casrec_conditions": "",
+        "source_conditions": "",
         "source_table_additional_columns": [
             ""
         ]
@@ -204,7 +206,7 @@
         "destination_table_name": "supervision_level_log",
         "table_type": "data",
         "source_table_name": "order",
-        "casrec_conditions": "",
+        "source_conditions": "",
         "source_table_additional_columns": [
             "Case",
             "Order No"
@@ -216,7 +218,7 @@
         "destination_table_name": "visits",
         "table_type": "data",
         "source_table_name": "repvis",
-        "casrec_conditions": "",
+        "source_conditions": "",
         "source_table_additional_columns": [
             ""
         ],
@@ -228,7 +230,7 @@
         "destination_table_name": "persons",
         "table_type": "data",
         "source_table_name": "pat",
-        "casrec_conditions": "",
+        "source_conditions": "",
         "source_table_additional_columns": [
             "Term Type"
         ]
@@ -239,7 +241,7 @@
         "destination_table_name": "addresses",
         "table_type": "data",
         "source_table_name": "pat",
-        "casrec_conditions": "",
+        "source_conditions": "",
         "source_table_additional_columns": [
             "Case"
         ]
@@ -250,7 +252,7 @@
         "destination_table_name": "phonenumbers",
         "table_type": "data",
         "source_table_name": "pat",
-        "casrec_conditions": "",
+        "source_conditions": "",
         "source_table_additional_columns": [
             "Case"
         ]
@@ -261,7 +263,7 @@
         "destination_table_name": "persons",
         "table_type": "data",
         "source_table_name": "deputy",
-        "casrec_conditions": "",
+        "source_conditions": "",
         "source_table_additional_columns": [
             "Deputy No",
             "Stat",
@@ -274,7 +276,7 @@
         "destination_table_name": "addresses",
         "table_type": "data",
         "source_table_name": "deputy_address",
-        "casrec_conditions": "",
+        "source_conditions": "",
         "source_table_additional_columns": [
             "Dep Addr No"
         ]
@@ -285,7 +287,7 @@
         "destination_table_name": "phonenumbers",
         "table_type": "data",
         "source_table_name": "deputy",
-        "casrec_conditions": "",
+        "source_conditions": "",
         "source_table_additional_columns": [
             "Deputy No"
         ]
@@ -296,7 +298,7 @@
         "destination_table_name": "phonenumbers",
         "table_type": "data",
         "source_table_name": "deputy",
-        "casrec_conditions": "",
+        "source_conditions": "",
         "source_table_additional_columns": [
             "Deputy No"
         ]
@@ -307,7 +309,7 @@
         "destination_table_name": "order_deputy",
         "table_type": "join",
         "source_table_name": "deputy",
-        "casrec_conditions": "",
+        "source_conditions": "",
         "source_table_additional_columns": [
             "Deputy No",
             "Stat"
