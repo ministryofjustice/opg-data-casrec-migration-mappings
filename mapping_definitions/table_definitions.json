@@ -108,7 +108,7 @@
         "table_type": "data",
         "source_table_name": "pat",
         "source_conditions": {
-            "VwM": "not null"
+            "VWM": "not null"
         },
         "source_table_additional_columns": [
             "Case"
@@ -134,7 +134,7 @@
         "table_type": "data",
         "source_table_name": "deputy",
         "source_conditions": {
-            "VwM": "not null"
+            "VWM": "not null"
         },
         "source_table_additional_columns": [
             "Deputy No"
