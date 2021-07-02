@@ -14,8 +14,6 @@ def create_table_def_json(df, name, destination):
     convert_col_to_list(column_names=['source_table_additional_columns'], definition_dict=table_def_dict)
     convert_col_to_dict(column_names=['casrec_conditions'], definition_dict=table_def_dict)
 
-    print(table_def_dict)
-
     path = f"./{destination}"
 
     if not os.path.exists(path):
@@ -35,18 +33,6 @@ def create_table_def_json(df, name, destination):
     with open(f"{path}/table_definitions.json", "w") as json_write:
         json.dump(existing_table_defs, json_write, indent=4)
 
-#         json.dump(details, json_out, indent=4)
-
-    # for mapping_file_name, details in table_def_dict.items():
-    #
-    #     path = f"./{destination}"
-    #
-    #     if not os.path.exists(path):
-    #         os.makedirs(path)
-    #
-    #
-    #     with open(f"{path}/{name}_table.json", "w") as json_out:
-    #         json.dump(details, json_out, indent=4)
 
 
 def convert_col_to_list(column_names, definition_dict):

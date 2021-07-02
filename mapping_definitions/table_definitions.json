@@ -1,4 +1,54 @@
 {
+    "annual_report_logs": {
+        "entity_name": "reporting",
+        "required_entities": "",
+        "destination_table_name": "annual_report_logs",
+        "table_type": "data",
+        "source_table_name": "account",
+        "casrec_conditions": "",
+        "source_table_additional_columns": [
+            "Case"
+        ],
+        "Unnamed: 8": ""
+    },
+    "annual_report_lodging_details": {
+        "entity_name": "reporting",
+        "required_entities": "",
+        "destination_table_name": "annual_report_lodging_details",
+        "table_type": "data",
+        "source_table_name": "account",
+        "casrec_conditions": "",
+        "source_table_additional_columns": [
+            ""
+        ],
+        "Unnamed: 8": ""
+    },
+    "client_death_notfications": {
+        "entity_name": "death",
+        "required_entities": "",
+        "destination_table_name": "death_notifications",
+        "table_type": "data",
+        "source_table_name": "pat",
+        "casrec_conditions": {
+            "Term Type": "D"
+        },
+        "source_table_additional_columns": [
+            "Term Type\nCase"
+        ]
+    },
+    "deputy_death_notifications": {
+        "entity_name": "death",
+        "required_entities": "",
+        "destination_table_name": "death_notifications",
+        "table_type": "data",
+        "source_table_name": "deputy",
+        "casrec_conditions": {
+            "Stat": "99"
+        },
+        "source_table_additional_columns": [
+            "Stat\nDeputy No"
+        ]
+    },
     "crec_persons": {
         "entity_name": "crec",
         "required_entities": "client",
@@ -110,6 +160,20 @@
             ""
         ]
     },
+    "bonds": {
+        "entity_name": "bonds",
+        "required_entities": "",
+        "destination_table_name": "bonds",
+        "table_type": "data",
+        "source_table_name": "order",
+        "casrec_conditions": {
+            "Bond No.": "not null"
+        },
+        "source_table_additional_columns": [
+            "CoP Case"
+        ],
+        "Unnamed: 8": ""
+    },
     "cases": {
         "entity_name": "cases",
         "required_entities": "",
@@ -145,6 +209,18 @@
             "Case",
             "Order No"
         ]
+    },
+    "visits": {
+        "entity_name": "visits",
+        "required_entities": "",
+        "destination_table_name": "visits",
+        "table_type": "data",
+        "source_table_name": "repvis",
+        "casrec_conditions": "",
+        "source_table_additional_columns": [
+            ""
+        ],
+        "Unnamed: 8": ""
     },
     "client_persons": {
         "entity_name": "clients",
