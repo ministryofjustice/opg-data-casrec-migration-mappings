@@ -108,21 +108,10 @@
         "table_type": "data",
         "source_table_name": "pat",
         "source_conditions": {
-            "VWM": "not null"
+            "VwM": "not null"
         },
         "source_table_additional_columns": [
             "Case"
-        ]
-    },
-    "client_person_warning": {
-        "entity_name": "warnings",
-        "required_entities": "",
-        "destination_table_name": "warnings",
-        "table_type": "join",
-        "source_table_name": "",
-        "source_conditions": "",
-        "source_table_additional_columns": [
-            ""
         ]
     },
     "deputy_special_warnings": {
@@ -145,16 +134,16 @@
         "table_type": "data",
         "source_table_name": "deputy",
         "source_conditions": {
-            "VWM": "not null"
+            "VwM": "not null"
         },
         "source_table_additional_columns": [
             "Deputy No"
         ]
     },
-    "deputy_person_warning": {
+    "person_warning": {
         "entity_name": "warnings",
         "required_entities": "",
-        "destination_table_name": "warnings",
+        "destination_table_name": "person_warning",
         "table_type": "join",
         "source_table_name": "",
         "source_conditions": "",
