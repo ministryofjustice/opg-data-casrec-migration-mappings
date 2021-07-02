@@ -1,6 +1,8 @@
 import filecmp
 
 import click as click
+
+from run import loop_through_files
 from helper import assume_aws_session
 from mapping_all_sheets import Mapping
 from upload_to_s3 import extract_zip
@@ -18,10 +20,12 @@ from upload_to_s3 import zip_dir
 @click.option("--local", default=False)
 def main(new_format, ci_stage, role, local):
 
-    mapping_doc_name = "Casrec_Mapping_Document.xlsx"
+    loop_through_files()
 
-    mapping = Mapping(mapping_doc_name=mapping_doc_name, new_format=new_format,)
-    mapping.generate_json_files()
+    # mapping_doc_name = "Casrec_Mapping_Document.xlsx"
+    #
+    # mapping = Mapping(mapping_doc_name=mapping_doc_name, new_format=new_format,)
+    # mapping.generate_json_files()
 
     if not local:
 

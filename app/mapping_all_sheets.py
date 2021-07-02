@@ -331,7 +331,7 @@ class Mapping:
         for module in all_modules:
             for name, df in module.items():
                 print(f"generating {name}")
-                if self.lookup_table_name in name:
+                if self._table_name in name:
                     self._convert_lookup_to_dict(name, df)
                 else:
                     module_dict = self._clean_up_and_convert_to_dict(df=df)
