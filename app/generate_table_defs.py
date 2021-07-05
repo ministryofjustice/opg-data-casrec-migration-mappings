@@ -15,7 +15,7 @@ def create_table_def_json(df, name, destination):
     convert_col_to_list(column_names=['source_table_additional_columns'], definition_dict=table_def_dict)
     convert_col_to_dict(column_names=['source_conditions'], definition_dict=table_def_dict)
 
-    path = f"./{destination}"
+    path = f"./{destination}/tables"
 
     if not os.path.exists(path):
         os.makedirs(path)
