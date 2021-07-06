@@ -8,7 +8,13 @@ def create_table_def_json(df, name, destination):
 
     df = df.replace(np.nan, "")
     df = df.rename(columns={'casrec_conditions': 'source_conditions'})
+    df = df.sort_values(by=['mapping_file_name'])
     df = df.set_index("mapping_file_name")
+
+    try:
+        df = df.drop(columns='Unnamed: 8')
+    except:
+        pass
     table_def_dict = df.to_dict("index")
 
 
@@ -50,9 +56,20 @@ def convert_col_to_dict(column_names, definition_dict):
     for col, details in definition_dict.items():
         for field in column_names:
             try:
-                conditions = [x.strip() for x in details[field].split(",")]
-                details[field] = {x.split('=')[0].strip(): x.split('=')[1].strip() for x in conditions}
-            except:
-                pass
+                conditions = [x for x in details[field].split("\n")]
+                condition_details = {}
+                for condition in conditions:
+                    key = condition.split('=')[0].strip()
+                    raw_val = condition.split('=')[1].strip()
+                    try:
+                        val = json.loads(raw_val)
+                    except:
+                        val = raw_val
 
+                    condition_details[key] = val
+                details[field] = condition_details
+            except Exception as e:
+                print(e)
+                pass
+    # print(json.dumps(definition_dict, indent=4))
     return definition_dict

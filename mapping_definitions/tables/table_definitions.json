@@ -1,16 +1,4 @@
 {
-    "annual_report_logs": {
-        "entity_name": "reporting",
-        "required_entities": "",
-        "destination_table_name": "annual_report_logs",
-        "table_type": "data",
-        "source_table_name": "account",
-        "source_conditions": "",
-        "source_table_additional_columns": [
-            "Case"
-        ],
-        "Unnamed: 8": ""
-    },
     "annual_report_lodging_details": {
         "entity_name": "reporting",
         "required_entities": "",
@@ -20,8 +8,18 @@
         "source_conditions": "",
         "source_table_additional_columns": [
             ""
-        ],
-        "Unnamed: 8": ""
+        ]
+    },
+    "annual_report_logs": {
+        "entity_name": "reporting",
+        "required_entities": "",
+        "destination_table_name": "annual_report_logs",
+        "table_type": "data",
+        "source_table_name": "account",
+        "source_conditions": "",
+        "source_table_additional_columns": [
+            "Case"
+        ]
     },
     "client_death_notifications": {
         "entity_name": "death",
@@ -44,7 +42,7 @@
         "table_type": "data",
         "source_table_name": "deputy",
         "source_conditions": {
-            "Stat": "99"
+            "Stat": 99
         },
         "source_table_additional_columns": [
             "Stat",
@@ -57,7 +55,16 @@
         "destination_table_name": "persons",
         "table_type": "data",
         "source_table_name": "crec",
-        "source_conditions": "",
+        "source_conditions": {
+            "convert_to_timestamp": {
+                "date": "Modify",
+                "time": "at.1"
+            },
+            "latest": {
+                "col": "timestamp",
+                "per": "Case"
+            }
+        },
         "source_table_additional_columns": [
             ""
         ]
@@ -162,8 +169,7 @@
         },
         "source_table_additional_columns": [
             "CoP Case"
-        ],
-        "Unnamed: 8": ""
+        ]
     },
     "cases": {
         "entity_name": "cases",
@@ -210,18 +216,6 @@
         "source_conditions": "",
         "source_table_additional_columns": [
             ""
-        ],
-        "Unnamed: 8": ""
-    },
-    "client_persons": {
-        "entity_name": "clients",
-        "required_entities": "",
-        "destination_table_name": "persons",
-        "table_type": "data",
-        "source_table_name": "pat",
-        "source_conditions": "",
-        "source_table_additional_columns": [
-            "Term Type"
         ]
     },
     "client_addresses": {
@@ -235,6 +229,17 @@
             "Case"
         ]
     },
+    "client_persons": {
+        "entity_name": "clients",
+        "required_entities": "",
+        "destination_table_name": "persons",
+        "table_type": "data",
+        "source_table_name": "pat",
+        "source_conditions": "",
+        "source_table_additional_columns": [
+            "Term Type"
+        ]
+    },
     "client_phonenumbers": {
         "entity_name": "clients",
         "required_entities": "",
@@ -244,19 +249,6 @@
         "source_conditions": "",
         "source_table_additional_columns": [
             "Case"
-        ]
-    },
-    "deputy_persons": {
-        "entity_name": "deputies",
-        "required_entities": "",
-        "destination_table_name": "persons",
-        "table_type": "data",
-        "source_table_name": "deputy",
-        "source_conditions": "",
-        "source_table_additional_columns": [
-            "Deputy No",
-            "Stat",
-            "Disch Death"
         ]
     },
     "deputy_addresses": {
@@ -290,6 +282,19 @@
         "source_conditions": "",
         "source_table_additional_columns": [
             "Deputy No"
+        ]
+    },
+    "deputy_persons": {
+        "entity_name": "deputies",
+        "required_entities": "",
+        "destination_table_name": "persons",
+        "table_type": "data",
+        "source_table_name": "deputy",
+        "source_conditions": "",
+        "source_table_additional_columns": [
+            "Deputy No",
+            "Stat",
+            "Disch Death"
         ]
     },
     "order_deputy": {
