@@ -8,7 +8,6 @@ def create_table_def_json(df, name, destination):
 
     df = df.replace(np.nan, "")
     df = df.rename(columns={'casrec_conditions': 'source_conditions'})
-    df = df.sort_values(by=['mapping_file_name'])
     df = df.set_index("mapping_file_name")
 
     try:
@@ -36,8 +35,9 @@ def create_table_def_json(df, name, destination):
     for mapping_file_name, details in table_def_dict.items():
         existing_table_defs[mapping_file_name] = details
 
+
     with open(f"{path}/table_definitions.json", "w") as json_write:
-        json.dump(existing_table_defs, json_write, indent=4)
+        json.dump(existing_table_defs, json_write, indent=4, sort_keys=True)
 
 
 
@@ -71,5 +71,6 @@ def convert_col_to_dict(column_names, definition_dict):
             except Exception as e:
                 print(e)
                 pass
-    # print(json.dumps(definition_dict, indent=4))
     return definition_dict
+
+
