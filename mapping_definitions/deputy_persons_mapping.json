@@ -424,6 +424,31 @@
             "sync": ""
         }
     },
+    "mobilenumber": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "persons",
+            "entity": "deputy"
+        },
+        "transform_casrec": {
+            "casrec_table": "DEPUTY",
+            "casrec_column_name": "Mobile",
+            "alias": "Mobile",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
     "newsletter": {
         "mapping_status": {
             "is_complete": true
