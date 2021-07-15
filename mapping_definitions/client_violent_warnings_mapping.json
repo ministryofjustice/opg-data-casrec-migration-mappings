@@ -41,7 +41,7 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": 2.0,
+            "default_value": 2,
             "calculated": "",
             "additional_columns": ""
         },
@@ -65,8 +65,8 @@
             "casrec_column_name": "VWM",
             "alias": "VWM",
             "requires_transformation": "",
-            "lookup_table": "warning_violent_lookup",
-            "default_value": "",
+            "lookup_table": "",
+            "default_value": "REM - Violence Warnings",
             "calculated": "",
             "additional_columns": ""
         },
@@ -90,8 +90,8 @@
             "casrec_column_name": "VWM",
             "alias": "VWM 1",
             "requires_transformation": "",
-            "lookup_table": "warning_violent_lookup",
-            "default_value": "",
+            "lookup_table": "",
+            "default_value": "Casrec Migration - Violent Warning",
             "calculated": "",
             "additional_columns": ""
         },
@@ -115,7 +115,7 @@
             "casrec_column_name": "VWM",
             "alias": "VWM 2",
             "requires_transformation": "",
-            "lookup_table": "warning_violent_lookup",
+            "lookup_table": "",
             "default_value": "",
             "calculated": "current_date",
             "additional_columns": ""
@@ -141,7 +141,7 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": 1.0,
+            "default_value": true,
             "calculated": "",
             "additional_columns": ""
         },
