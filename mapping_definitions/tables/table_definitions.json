@@ -26,10 +26,11 @@
         "entity_name": "bonds",
         "required_entities": "",
         "source_conditions": {
-            "Bond No.": "not null"
+            "Bond Rqd": "Y"
         },
         "source_table_additional_columns": [
-            "CoP Case"
+            "CoP Case",
+            "Bond Rqd"
         ],
         "source_table_name": "order",
         "table_type": "data"
