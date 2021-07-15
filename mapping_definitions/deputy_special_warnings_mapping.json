@@ -62,8 +62,8 @@
         },
         "transform_casrec": {
             "casrec_table": "DEPUTY",
-            "casrec_column_name": "SIM",
-            "alias": "SIM",
+            "casrec_column_name": "",
+            "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "REM - Special Interest Markers",
@@ -87,8 +87,8 @@
         },
         "transform_casrec": {
             "casrec_table": "DEPUTY",
-            "casrec_column_name": "SIM",
-            "alias": "SIM 1",
+            "casrec_column_name": "",
+            "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "Casrec Migration - Special Interest Warning",
@@ -113,7 +113,7 @@
         "transform_casrec": {
             "casrec_table": "DEPUTY",
             "casrec_column_name": "SIM",
-            "alias": "SIM 2",
+            "alias": "SIM",
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "",

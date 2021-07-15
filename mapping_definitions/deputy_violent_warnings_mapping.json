@@ -62,8 +62,8 @@
         },
         "transform_casrec": {
             "casrec_table": "DEPUTY",
-            "casrec_column_name": "VWM",
-            "alias": "VWM",
+            "casrec_column_name": "",
+            "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "REM - Violence Warnings",
@@ -87,8 +87,8 @@
         },
         "transform_casrec": {
             "casrec_table": "DEPUTY",
-            "casrec_column_name": "VWM",
-            "alias": "VWM 1",
+            "casrec_column_name": "",
+            "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "Casrec Migration - Violent Warning",
@@ -112,8 +112,8 @@
         },
         "transform_casrec": {
             "casrec_table": "DEPUTY",
-            "casrec_column_name": "",
-            "alias": "",
+            "casrec_column_name": "VWM",
+            "alias": "VWM",
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "",

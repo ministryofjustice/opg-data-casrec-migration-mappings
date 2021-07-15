@@ -62,8 +62,8 @@
         },
         "transform_casrec": {
             "casrec_table": "PAT",
-            "casrec_column_name": "SAAR Check",
-            "alias": "SAAR Check",
+            "casrec_column_name": "",
+            "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "Other",
@@ -87,8 +87,8 @@
         },
         "transform_casrec": {
             "casrec_table": "PAT",
-            "casrec_column_name": "SAAR Check",
-            "alias": "SAAR Check 1",
+            "casrec_column_name": "",
+            "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "Casrec Migration - SAAR Check Warning",
@@ -113,7 +113,7 @@
         "transform_casrec": {
             "casrec_table": "PAT",
             "casrec_column_name": "SAAR Check",
-            "alias": "SAAR Check 2",
+            "alias": "SAAR Check",
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "",

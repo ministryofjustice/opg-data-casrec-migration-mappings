@@ -62,11 +62,11 @@
         },
         "transform_casrec": {
             "casrec_table": "PAT",
-            "casrec_column_name": "Debt chase",
-            "alias": "Debt chase",
+            "casrec_column_name": "",
+            "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": "Other",
+            "default_value": "OTHER",
             "calculated": "",
             "additional_columns": ""
         },
@@ -87,8 +87,8 @@
         },
         "transform_casrec": {
             "casrec_table": "PAT",
-            "casrec_column_name": "Debt chase",
-            "alias": "Debt chase 1",
+            "casrec_column_name": "",
+            "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "Casrec Migration - No Debt to be chased",
@@ -113,7 +113,7 @@
         "transform_casrec": {
             "casrec_table": "PAT",
             "casrec_column_name": "Debt chase",
-            "alias": "Debt chase 2",
+            "alias": "Debt chase",
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "",
