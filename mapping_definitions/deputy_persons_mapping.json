@@ -241,7 +241,7 @@
             "alias": "By Email",
             "requires_transformation": "",
             "lookup_table": "corres_indicator_lookup",
-            "default_value": "",
+            "default_value": false,
             "calculated": "",
             "additional_columns": ""
         },
@@ -416,7 +416,7 @@
             "alias": "Welsh",
             "requires_transformation": "",
             "lookup_table": "corres_indicator_lookup",
-            "default_value": "",
+            "default_value": false,
             "calculated": "",
             "additional_columns": ""
         },
@@ -491,7 +491,7 @@
             "alias": "Special",
             "requires_transformation": "",
             "lookup_table": "audio_special_req_lookup",
-            "default_value": "",
+            "default_value": false,
             "calculated": "",
             "additional_columns": ""
         },
@@ -516,7 +516,7 @@
             "alias": "Special 1",
             "requires_transformation": "",
             "lookup_table": "large_print_special_req_lookup",
-            "default_value": "",
+            "default_value": false,
             "calculated": "",
             "additional_columns": ""
         },
@@ -541,7 +541,7 @@
             "alias": "Special 2",
             "requires_transformation": "",
             "lookup_table": "hearing_imp_special_req_lookup",
-            "default_value": "",
+            "default_value": false,
             "calculated": "",
             "additional_columns": ""
         },
