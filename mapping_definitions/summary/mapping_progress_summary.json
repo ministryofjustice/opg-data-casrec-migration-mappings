@@ -84,6 +84,12 @@
             "total_mapped": 11,
             "percentage_complete": 79
         },
+        "finance_invoice_non_ad": {
+            "total_rows": 14,
+            "total_unmapped": 3,
+            "total_mapped": 11,
+            "percentage_complete": 79
+        },
         "cases": {
             "total_rows": 58,
             "total_unmapped": 4,
@@ -183,13 +189,13 @@
     },
     "total": {
         "worksheets": {
-            "total_sheets": 30,
+            "total_sheets": 31,
             "total_complete": 1
         },
         "fields": {
-            "total_fields": 325,
-            "total_unmapped": 88,
-            "total_mapped": 237,
+            "total_fields": 339,
+            "total_unmapped": 91,
+            "total_mapped": 248,
             "percentage_complete": 73
         }
     }
