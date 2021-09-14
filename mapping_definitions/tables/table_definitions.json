@@ -279,11 +279,21 @@
                 "col": "Invoice No",
                 "num": 2,
                 "result_col": "Invoice_Type"
+            },
+            "greater_than": {
+                "col": "Amount",
+                "value": 0
+            },
+            "recent_or_open_invoices": {
+                "date_col": "Create",
+                "tax_year_from": 2019
             }
         },
         "source_table_additional_columns": [
             "Case",
-            "Invoice No"
+            "Invoice No",
+            "Amount",
+            "Create"
         ],
         "source_table_name": "feeexport",
         "table_type": "data"
@@ -303,11 +313,21 @@
                 "col": "Invoice No",
                 "num": 2,
                 "result_col": "Invoice_Type"
+            },
+            "greater_than": {
+                "col": "Amount",
+                "value": 0
+            },
+            "recent_or_open_invoices": {
+                "date_col": "Create",
+                "tax_year_from": 2019
             }
         },
         "source_table_additional_columns": [
             "Case",
-            "Invoice No"
+            "Invoice No",
+            "Amount",
+            "Create"
         ],
         "source_table_name": "feeexport",
         "table_type": "data"
