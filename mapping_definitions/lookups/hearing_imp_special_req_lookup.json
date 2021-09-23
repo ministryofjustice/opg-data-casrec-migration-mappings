@@ -16,5 +16,8 @@
     },
     "6": {
         "sirius_mapping": true
+    },
+    "0": {
+        "sirius_mapping": false
     }
 }
