@@ -96,6 +96,18 @@
             "total_mapped": 12,
             "percentage_complete": 86
         },
+        "finance_ledger_credits": {
+            "total_rows": 17,
+            "total_unmapped": 7,
+            "total_mapped": 10,
+            "percentage_complete": 59
+        },
+        "finance_allocation_credits": {
+            "total_rows": 11,
+            "total_unmapped": 3,
+            "total_mapped": 8,
+            "percentage_complete": 73
+        },
         "cases": {
             "total_rows": 58,
             "total_unmapped": 4,
@@ -195,13 +207,13 @@
     },
     "total": {
         "worksheets": {
-            "total_sheets": 32,
+            "total_sheets": 34,
             "total_complete": 1
         },
         "fields": {
-            "total_fields": 349,
-            "total_unmapped": 89,
-            "total_mapped": 260,
+            "total_fields": 377,
+            "total_unmapped": 99,
+            "total_mapped": 278,
             "percentage_complete": 74
         }
     }

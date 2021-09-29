@@ -269,6 +269,25 @@
         "source_table_name": "deputy",
         "table_type": "data"
     },
+    "finance_allocation_credits": {
+        "destination_table_name": "finance_ledger_allocation",
+        "entity_name": "ledger_allocation",
+        "required_entities": "ledger, invoice",
+        "source_conditions": {
+            "less_than": {
+                "col": "Amount",
+                "value": 0
+            }
+        },
+        "source_table_additional_columns": [
+            "Amount",
+            "Create",
+            "Invoice No",
+            "Orig Invoice"
+        ],
+        "source_table_name": "feeexport",
+        "table_type": "data"
+    },
     "finance_invoice_ad": {
         "destination_table_name": "finance_invoice",
         "entity_name": "invoice",
@@ -328,6 +347,25 @@
             "Invoice No",
             "Amount",
             "Create"
+        ],
+        "source_table_name": "feeexport",
+        "table_type": "data"
+    },
+    "finance_ledger_credits": {
+        "destination_table_name": "finance_ledger",
+        "entity_name": "ledger",
+        "required_entities": "invoice",
+        "source_conditions": {
+            "less_than": {
+                "col": "Amount",
+                "value": 0
+            }
+        },
+        "source_table_additional_columns": [
+            "Amount",
+            "Create",
+            "Invoice No",
+            "Orig Invoice"
         ],
         "source_table_name": "feeexport",
         "table_type": "data"
