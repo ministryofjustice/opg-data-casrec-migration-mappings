@@ -115,7 +115,9 @@
         "destination_table_name": "phonenumbers",
         "entity_name": "clients",
         "required_entities": "",
-        "source_conditions": "",
+        "source_conditions": {
+            "Client Phone": "not null"
+        },
         "source_table_additional_columns": [
             "Case"
         ],
@@ -198,7 +200,9 @@
         "destination_table_name": "phonenumbers",
         "entity_name": "deputies",
         "required_entities": "",
-        "source_conditions": "",
+        "source_conditions": {
+            "Contact Telephone": "not null"
+        },
         "source_table_additional_columns": [
             "Deputy No"
         ],
@@ -223,7 +227,9 @@
         "destination_table_name": "phonenumbers",
         "entity_name": "deputies",
         "required_entities": "",
-        "source_conditions": "",
+        "source_conditions": {
+            "Contact Tele2": "not null"
+        },
         "source_table_additional_columns": [
             "Deputy No"
         ],
