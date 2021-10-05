@@ -741,7 +741,7 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": "",
+            "default_value": "none",
             "calculated": "",
             "additional_columns": ""
         },
