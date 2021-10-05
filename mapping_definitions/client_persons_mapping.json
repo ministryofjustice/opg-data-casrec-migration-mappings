@@ -516,7 +516,7 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": "Active",
+            "default_value": "ACTIVE",
             "calculated": "",
             "additional_columns": ""
         },
