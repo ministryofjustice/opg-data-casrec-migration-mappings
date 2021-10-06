@@ -115,7 +115,9 @@
         "destination_table_name": "phonenumbers",
         "entity_name": "clients",
         "required_entities": "",
-        "source_conditions": "",
+        "source_conditions": {
+            "Client Phone": "not null"
+        },
         "source_table_additional_columns": [
             "Case"
         ],
