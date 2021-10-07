@@ -1,38 +1,38 @@
 {
-    "0": {
-        "sirius_mapping": "CR-MISC"
-    },
-    "1": {
-        "sirius_mapping": ""
-    },
-    "9": {
-        "sirius_mapping": "CR-DUPE"
-    },
-    "4": {
-        "sirius_mapping": "CR-DOC"
-    },
-    "8": {
-        "sirius_mapping": "CR-MISC"
-    },
     "3": {
         "sirius_mapping": ""
     },
-    "6": {
-        "sirius_mapping": "CR-DUPE"
-    },
-    "10": {
-        "sirius_mapping": "CR-DOC"
-    },
-    "11": {
-        "sirius_mapping": "CR-MISC"
+    "0": {
+        "sirius_mapping": ""
     },
     "2": {
         "sirius_mapping": ""
     },
-    "7": {
-        "sirius_mapping": "CR-DUPE"
+    "1": {
+        "sirius_mapping": ""
+    },
+    "4": {
+        "sirius_mapping": "CR-MISC"
     },
     "5": {
+        "sirius_mapping": "CR-CANC"
+    },
+    "6": {
+        "sirius_mapping": "CR-REF"
+    },
+    "7": {
         "sirius_mapping": "CR-DOC"
+    },
+    "8": {
+        "sirius_mapping": "CR-DOD"
+    },
+    "9": {
+        "sirius_mapping": "CR-CONF"
+    },
+    "10": {
+        "sirius_mapping": "CR-DUPE"
+    },
+    "11": {
+        "sirius_mapping": "CR-AREA"
     }
 }

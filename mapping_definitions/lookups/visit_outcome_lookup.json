@@ -1,14 +1,38 @@
 {
     "3": {
-        "sirius_mapping": "CANCELLED"
+        "sirius_mapping": "ABORTED"
     },
     "0": {
-        "sirius_mapping": ""
+        "sirius_mapping": "CANCELLED"
     },
     "2": {
         "sirius_mapping": "ABORTED"
     },
     "1": {
         "sirius_mapping": "SUCCESSFUL"
+    },
+    "4": {
+        "sirius_mapping": "CANCELLED"
+    },
+    "5": {
+        "sirius_mapping": "CANCELLED"
+    },
+    "6": {
+        "sirius_mapping": "ABORTED"
+    },
+    "7": {
+        "sirius_mapping": "CANCELLED"
+    },
+    "8": {
+        "sirius_mapping": "CANCELLED"
+    },
+    "9": {
+        "sirius_mapping": "ABORTED"
+    },
+    "10": {
+        "sirius_mapping": "CANCELLED"
+    },
+    "11": {
+        "sirius_mapping": "CANCELLED"
     }
 }

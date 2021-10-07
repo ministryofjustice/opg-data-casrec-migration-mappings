@@ -133,10 +133,10 @@
             "percentage_complete": 57
         },
         "visits": {
-            "total_rows": 18,
-            "total_unmapped": 8,
-            "total_mapped": 10,
-            "percentage_complete": 56
+            "total_rows": 16,
+            "total_unmapped": 0,
+            "total_mapped": 16,
+            "percentage_complete": 100
         },
         "visitor": {
             "total_rows": 2,
@@ -215,6 +215,7 @@
             "total_unmapped": 99,
             "total_mapped": 279,
             "percentage_complete": 74
+
         }
     }
 }

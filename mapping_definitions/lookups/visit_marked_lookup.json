@@ -1,14 +1,14 @@
 {
     "Red": {
-        "sirius_mapping": "AMBER"
+        "sirius_mapping": "RED"
     },
     "Green": {
         "sirius_mapping": "GREEN"
     },
     "Blue": {
-        "sirius_mapping": "GREEN"
+        "sirius_mapping": ""
     },
     "Amber": {
-        "sirius_mapping": "RED"
+        "sirius_mapping": "AMBER"
     }
 }

@@ -1,44 +1,44 @@
 {
     "1": {
-        "sirius_mapping": "VT-SUP"
+        "sirius_mapping": "Supervision - Pro Visit"
     },
     "2": {
-        "sirius_mapping": "VT-SUP"
+        "sirius_mapping": "Supervision - Lay Visit"
     },
     "3": {
-        "sirius_mapping": "VT-SUP"
+        "sirius_mapping": "Supervision- PA Visit"
     },
     "4": {
-        "sirius_mapping": "VT-SUP"
+        "sirius_mapping": "Supervision - Health and welfare"
     },
     "5": {
-        "sirius_mapping": "VT-SUP"
+        "sirius_mapping": "Supervision - Medical"
     },
     "6": {
-        "sirius_mapping": "VT-SUP"
+        "sirius_mapping": "Assurance - Medical"
     },
     "7": {
-        "sirius_mapping": "VT-SUP"
+        "sirius_mapping": ""
     },
     "8": {
-        "sirius_mapping": "VT-INV"
+        "sirius_mapping": "Assurance -Client Pro"
     },
     "9": {
-        "sirius_mapping": "VT-INV"
+        "sirius_mapping": "Assurance - Client PA"
     },
     "10": {
-        "sirius_mapping": "VT-INV"
+        "sirius_mapping": "Invesitigation - Deputyship"
     },
     "11": {
-        "sirius_mapping": "VT-INV"
+        "sirius_mapping": "Invesitigation - LPA"
     },
     "12": {
-        "sirius_mapping": "VT-INV"
+        "sirius_mapping": "Invesitigation - Medical LPA"
     },
     "13": {
-        "sirius_mapping": "VT-INV"
+        "sirius_mapping": "Invesitigation - Medical Deputyship"
     },
     "14": {
-        "sirius_mapping": "VT-INV"
+        "sirius_mapping": "Assurance - Pro Team Section 58"
     }
 }

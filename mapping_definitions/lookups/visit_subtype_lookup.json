@@ -1,11 +1,11 @@
 {
     "1": {
-        "sirius_mapping": "VST-LAY"
+        "sirius_mapping": "Lay visit"
     },
     "2": {
-        "sirius_mapping": "VST-LAY"
+        "sirius_mapping": "Health and Welfare"
     },
     "3": {
-        "sirius_mapping": "VST-HW"
+        "sirius_mapping": "Medical"
     }
 }

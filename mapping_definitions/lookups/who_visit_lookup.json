@@ -3,12 +3,12 @@
         "sirius_mapping": "VPT-DEPUTY"
     },
     "N": {
-        "sirius_mapping": "VPT-DEPUTY"
+        "sirius_mapping": "VPT-CLIENT"
     },
     "C": {
         "sirius_mapping": "VPT-CLIENT"
     },
     "O": {
-        "sirius_mapping": "VPT-CLIENT"
+        "sirius_mapping": "VPT-DEPUTY"
     }
 }
