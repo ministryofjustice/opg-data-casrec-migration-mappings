@@ -170,7 +170,7 @@
         "source_conditions": {
             "convert_to_timestamp": {
                 "date": "Modify",
-                "time": "at.1"
+                "time": "at1"
             },
             "latest": {
                 "col": "timestamp",
@@ -179,7 +179,7 @@
         },
         "source_table_additional_columns": [
             "Modify",
-            "at.1",
+            "at1",
             "Case"
         ],
         "source_table_name": "crec",
