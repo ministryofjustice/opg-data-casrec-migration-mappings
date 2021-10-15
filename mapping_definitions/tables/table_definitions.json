@@ -448,9 +448,18 @@
         "destination_table_name": "tasks",
         "entity_name": "tasks",
         "required_entities": "",
-        "source_conditions": "",
+        "source_conditions": {
+            "include_values": {
+                "col": "Status",
+                "values": [
+                    "ACTIVE",
+                    "INACTIVE"
+                ]
+            }
+        },
         "source_table_additional_columns": [
-            "Case"
+            "Case",
+            "Status"
         ],
         "source_table_name": "sup_activity",
         "table_type": "data"
