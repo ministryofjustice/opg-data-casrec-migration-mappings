@@ -26,32 +26,7 @@
     },
     "duedate": {
         "mapping_status": {
-            "is_complete": false
-        },
-        "sirius_details": {
-            "is_pk": "",
-            "fk_parents": "",
-            "data_type": "date",
-            "table_name": "annual_report_logs",
-            "entity": "reporting"
-        },
-        "transform_casrec": {
-            "casrec_table": "",
-            "casrec_column_name": "",
-            "alias": "",
-            "requires_transformation": "",
-            "lookup_table": "",
-            "default_value": "",
-            "calculated": "calculate_date:reportingperiodenddate+21|next-working-day",
-            "additional_columns": ""
-        },
-        "prepare": {
-            "sync": ""
-        }
-    },
-    "reportingperiodenddate": {
-        "mapping_status": {
-            "is_complete": false
+            "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
@@ -64,6 +39,31 @@
             "casrec_table": "Account",
             "casrec_column_name": "End Date",
             "alias": "End Date",
+            "requires_transformation": "calculate_duedate",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "reportingperiodenddate": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "date",
+            "table_name": "annual_report_logs",
+            "entity": "reporting"
+        },
+        "transform_casrec": {
+            "casrec_table": "Account",
+            "casrec_column_name": "End Date",
+            "alias": "End Date 1",
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "",
@@ -151,7 +151,7 @@
     },
     "reportduereminderdate": {
         "mapping_status": {
-            "is_complete": false
+            "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
@@ -162,12 +162,12 @@
         },
         "transform_casrec": {
             "casrec_table": "Account",
-            "casrec_column_name": "",
-            "alias": "",
-            "requires_transformation": "",
+            "casrec_column_name": "End Date",
+            "alias": "End Date 2",
+            "requires_transformation": "calculate_reminderdate",
             "lookup_table": "",
             "default_value": "",
-            "calculated": "calculate_date:reportingperiodenddate-21|previous-working-day",
+            "calculated": "",
             "additional_columns": ""
         },
         "prepare": {
@@ -176,7 +176,7 @@
     },
     "reportingperiodstartdate": {
         "mapping_status": {
-            "is_complete": false
+            "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
@@ -187,12 +187,12 @@
         },
         "transform_casrec": {
             "casrec_table": "Account",
-            "casrec_column_name": "",
-            "alias": "",
-            "requires_transformation": "",
+            "casrec_column_name": "End Date",
+            "alias": "End Date 3",
+            "requires_transformation": "calculate_startdate",
             "lookup_table": "",
             "default_value": "",
-            "calculated": "calculate_date:reportingperiodenddate-366",
+            "calculated": "",
             "additional_columns": ""
         },
         "prepare": {
