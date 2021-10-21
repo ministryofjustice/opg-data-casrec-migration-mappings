@@ -42,7 +42,7 @@
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "",
-            "calculated": "current_date",
+            "calculated": "calculate_date:reportingperiodenddate+21|next-working-day",
             "additional_columns": ""
         },
         "prepare": {
@@ -67,7 +67,7 @@
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "",
-            "calculated": "current_date",
+            "calculated": "",
             "additional_columns": ""
         },
         "prepare": {
@@ -167,7 +167,7 @@
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "",
-            "calculated": "",
+            "calculated": "calculate_date:reportingperiodenddate-21|previous-working-day",
             "additional_columns": ""
         },
         "prepare": {
@@ -192,7 +192,7 @@
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "",
-            "calculated": "current_date",
+            "calculated": "calculate_date:reportingperiodenddate-366",
             "additional_columns": ""
         },
         "prepare": {
