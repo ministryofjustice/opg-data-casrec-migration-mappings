@@ -226,7 +226,7 @@
     },
     "bankstatementdeadlinedate": {
         "mapping_status": {
-            "is_complete": false
+            "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
@@ -237,9 +237,23 @@
         },
         "transform_casrec": {
             "casrec_table": "ACCOUNT",
-            "casrec_column_name": "Sent1",
-            "alias": "Sent1",
-            "requires_transformation": "",
+            "casrec_column_name": [
+                "Sent1",
+                "Sent2",
+                "Sent3",
+                "Sent4",
+                "Sent5",
+                "Sent6"
+            ],
+            "alias": [
+                "Sent1",
+                "Sent2",
+                "Sent3",
+                "Sent4",
+                "Sent5",
+                "Sent6"
+            ],
+            "requires_transformation": "get_max_col",
             "lookup_table": "",
             "default_value": "",
             "calculated": "",
