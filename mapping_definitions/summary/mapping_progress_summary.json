@@ -152,9 +152,9 @@
         },
         "annual_report_lodging_details": {
             "total_rows": 11,
-            "total_unmapped": 7,
-            "total_mapped": 4,
-            "percentage_complete": 36
+            "total_unmapped": 6,
+            "total_mapped": 5,
+            "percentage_complete": 45
         },
         "annual_report_type_assignments": {
             "total_rows": 5,

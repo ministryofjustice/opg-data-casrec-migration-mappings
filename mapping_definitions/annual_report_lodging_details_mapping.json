@@ -176,7 +176,7 @@
     },
     "bankstatementsreceived": {
         "mapping_status": {
-            "is_complete": false
+            "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
@@ -186,10 +186,24 @@
             "entity": "reporting"
         },
         "transform_casrec": {
-            "casrec_table": "",
-            "casrec_column_name": "",
-            "alias": "",
-            "requires_transformation": "",
+            "casrec_table": "ACCOUNT",
+            "casrec_column_name": [
+                "Rcvd Date1",
+                "Rcvd Date2",
+                "Rcvd Date3",
+                "Rcvd Date4",
+                "Rcvd Date5",
+                "Rcvd Date6"
+            ],
+            "alias": [
+                "Rcvd Date1",
+                "Rcvd Date2",
+                "Rcvd Date3",
+                "Rcvd Date4",
+                "Rcvd Date5",
+                "Rcvd Date6"
+            ],
+            "requires_transformation": "is_at_least_one_set",
             "lookup_table": "",
             "default_value": "",
             "calculated": "",
