@@ -1,12 +1,12 @@
 {
     "X": {
-        "sirius_mapping": "Staff: referred"
+        "sirius_mapping": "STAFF_REFERRED"
     },
     "S": {
-        "sirius_mapping": "No Review"
+        "sirius_mapping": "NO_REVIEW"
     },
     "R": {
-        "sirius_mapping": "Reviewed"
+        "sirius_mapping": "REVIEWED"
     },
     "I": {
         "sirius_mapping": ""
