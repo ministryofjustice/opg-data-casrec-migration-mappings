@@ -1,38 +1,38 @@
 {
     "R1": {
-        "sirius_mapping": "Case note"
+        "sirius_mapping": "EVENT_CREATED"
     },
     "R2": {
-        "sirius_mapping": "Case note"
+        "sirius_mapping": "EVENT_CREATED"
     },
     "R3": {
-        "sirius_mapping": "Case note"
+        "sirius_mapping": "EVENT_CREATED"
     },
     "R4": {
-        "sirius_mapping": "Case note"
+        "sirius_mapping": "EVENT_CREATED"
     },
     "R6": {
-        "sirius_mapping": "Visit"
+        "sirius_mapping": "EVENT_CREATED"
     },
     "R7": {
-        "sirius_mapping": "Case note"
+        "sirius_mapping": "EVENT_CREATED"
     },
     "R8": {
-        "sirius_mapping": "Complaint"
+        "sirius_mapping": "EVENT_CREATED"
     },
     "R9": {
-        "sirius_mapping": "Case note"
+        "sirius_mapping": "EVENT_CREATED"
     },
     "RA": {
-        "sirius_mapping": "Case note"
+        "sirius_mapping": "EVENT_CREATED"
     },
     "RB": {
-        "sirius_mapping": "Finance - Correspondence"
+        "sirius_mapping": "EVENT_CREATED"
     },
     "RD": {
-        "sirius_mapping": "Case note"
+        "sirius_mapping": "EVENT_CREATED"
     },
     "R5": {
-        "sirius_mapping": "Case note"
+        "sirius_mapping": "EVENT_CREATED"
     }
 }

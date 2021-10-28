@@ -61,12 +61,12 @@
             "entity": "remarks"
         },
         "transform_casrec": {
-            "casrec_table": "DEPUTY_REMARKS",
-            "casrec_column_name": "Log Type",
-            "alias": "Log Type",
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
             "requires_transformation": "",
-            "lookup_table": "note_type_lookup",
-            "default_value": "not mapped",
+            "lookup_table": "",
+            "default_value": "",
             "calculated": "",
             "additional_columns": ""
         },
@@ -86,11 +86,11 @@
             "entity": "remarks"
         },
         "transform_casrec": {
-            "casrec_table": "",
-            "casrec_column_name": "",
-            "alias": "",
+            "casrec_table": "DEPUTY_REMARKS",
+            "casrec_column_name": "Log Type",
+            "alias": "Log Type",
             "requires_transformation": "",
-            "lookup_table": "",
+            "lookup_table": "note_type_lookup",
             "default_value": "not mapped",
             "calculated": "",
             "additional_columns": ""
