@@ -49,6 +49,31 @@
             "sync": ""
         }
     },
+    "type": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "tasks",
+            "entity": "tasks"
+        },
+        "transform_casrec": {
+            "casrec_table": "SUP_ACTIVITY",
+            "casrec_column_name": "Sup Desc",
+            "alias": "Sup Desc",
+            "requires_transformation": "",
+            "lookup_table": "task_type_lookup",
+            "default_value": "CWGN",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
     "status": {
         "mapping_status": {
             "is_complete": true
@@ -117,31 +142,6 @@
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "",
-            "calculated": "",
-            "additional_columns": ""
-        },
-        "prepare": {
-            "sync": ""
-        }
-    },
-    "name": {
-        "mapping_status": {
-            "is_complete": true
-        },
-        "sirius_details": {
-            "is_pk": "",
-            "fk_parents": "",
-            "data_type": "str",
-            "table_name": "tasks",
-            "entity": "tasks"
-        },
-        "transform_casrec": {
-            "casrec_table": "SUP_ACTIVITY",
-            "casrec_column_name": "Sup Desc",
-            "alias": "Sup Desc",
-            "requires_transformation": "",
-            "lookup_table": "task_type_lookup",
-            "default_value": "Casework - General",
             "calculated": "",
             "additional_columns": ""
         },
