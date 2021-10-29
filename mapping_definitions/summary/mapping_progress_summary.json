@@ -84,6 +84,18 @@
             "total_mapped": 6,
             "percentage_complete": 100
         },
+        "finance_remissions": {
+            "total_rows": 8,
+            "total_unmapped": 1,
+            "total_mapped": 7,
+            "percentage_complete": 88
+        },
+        "finance_exemptions": {
+            "total_rows": 8,
+            "total_unmapped": 1,
+            "total_mapped": 7,
+            "percentage_complete": 88
+        },
         "finance_invoice_ad": {
             "total_rows": 14,
             "total_unmapped": 2,
@@ -225,14 +237,14 @@
     },
     "total": {
         "worksheets": {
-            "total_sheets": 37,
+            "total_sheets": 39,
             "total_complete": 1
         },
         "fields": {
-            "total_fields": 393,
-            "total_unmapped": 85,
-            "total_mapped": 308,
-            "percentage_complete": 78
+            "total_fields": 409,
+            "total_unmapped": 87,
+            "total_mapped": 322,
+            "percentage_complete": 79
         }
     }
 }

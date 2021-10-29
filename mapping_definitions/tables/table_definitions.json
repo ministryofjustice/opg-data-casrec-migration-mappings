@@ -199,7 +199,7 @@
     "crec_persons": {
         "destination_table_name": "persons",
         "entity_name": "crec",
-        "required_entities": "client",
+        "required_entities": "clients",
         "source_conditions": {
             "convert_to_timestamp": {
                 "date": "Modify",
@@ -338,6 +338,30 @@
         "source_table_name": "feeexport",
         "table_type": "data"
     },
+    "finance_exemptions": {
+        "destination_table_name": "finance_remission_exemption",
+        "entity_name": "fee_reductions",
+        "required_entities": "clients",
+        "source_conditions": {
+            "date_since": {
+                "col": "Award Date",
+                "date": "31/03/2021"
+            },
+            "exclude_values": {
+                "col": "Exempt",
+                "values": [
+                    "0"
+                ]
+            }
+        },
+        "source_table_additional_columns": [
+            "Exempt",
+            "Award Date",
+            "Case"
+        ],
+        "source_table_name": "pat",
+        "table_type": "data"
+    },
     "finance_invoice_ad": {
         "destination_table_name": "finance_invoice",
         "entity_name": "invoice",
@@ -418,6 +442,30 @@
             "Orig Invoice"
         ],
         "source_table_name": "feeexport",
+        "table_type": "data"
+    },
+    "finance_remissions": {
+        "destination_table_name": "finance_remission_exemption",
+        "entity_name": "fee_reductions",
+        "required_entities": "clients",
+        "source_conditions": {
+            "date_since": {
+                "col": "Award Date",
+                "date": "31/03/2021"
+            },
+            "exclude_values": {
+                "col": "Remis",
+                "values": [
+                    "0"
+                ]
+            }
+        },
+        "source_table_additional_columns": [
+            "Remis",
+            "Award Date",
+            "Case"
+        ],
+        "source_table_name": "pat",
         "table_type": "data"
     },
     "order_deputy": {
