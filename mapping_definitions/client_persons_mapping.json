@@ -849,6 +849,31 @@
             "sync": ""
         }
     },
+    "caseactorgroup": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "persons",
+            "entity": "client"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "CASE-PILOT-ONE",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
     "updateddate": {
         "mapping_status": {
             "is_complete": true
